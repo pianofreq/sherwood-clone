@@ -1,0 +1,2308 @@
+<!DOCTYPE html>
+<html class="pointer cookies localstorage skrollr skrollr-desktop" lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+<style id="customRules"></style><meta charset="utf-8"/>
+<script async="" charset="utf-8" crossorigin="anonymous" integrity="sha384-76u17na0CP00vfwMm4sR2Vvs+diG7mwcVdyaONTZPGxfxUgxr51lvGQyQkZQXzHc" src="js/recaptcha__en.js" type="text/javascript"></script><script async="" crossorigin="anonymous" src="js/sdk.js"></script><script async="" src="js/matomo.js"></script><script id="facebook-jssdk" src="js/sdk.js"></script><script async="" src="js/sp-2.0.0-dm-0.1.min.js"></script><script async="" src="js/analytics.js" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-KCE7JF155Y&amp;cx=c&amp;gtm=457e56b1za200zb859800892&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104684204~104684207~104718208~104736445~104736447" type="text/javascript"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-134344972-4&amp;cx=c&amp;gtm=45He56b1v859800892za200&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104684204~104684207~104718208~104736445~104736447" type="text/javascript"></script><script async="" src="js/gtm.js"></script><script async="" src="js/gtm.js"></script><script async="" src="https://connect.facebook.net/signals/config/1808305689239755?v=2.9.208&amp;r=stable&amp;domain=www.sherwoodforestfaire.com&amp;hme=c7027faad2bd527f2b384e7a6d6c55127377ecc46dce76c1ebbdd02e9451da4e&amp;ex_m=81%2C138%2C121%2C15%2C114%2C56%2C37%2C115%2C62%2C55%2C126%2C70%2C10%2C80%2C23%2C109%2C100%2C60%2C63%2C108%2C125%2C6%2C2%2C3%2C5%2C88%2C4%2C71%2C79%2C128%2C129%2C200%2C150%2C50%2C205%2C202%2C203%2C42%2C163%2C22%2C59%2C209%2C208%2C152%2C25%2C49%2C7%2C52%2C75%2C76%2C77%2C82%2C104%2C24%2C21%2C107%2C103%2C102%2C122%2C61%2C124%2C47%2C123%2C38%2C105%2C48%2C97%2C34%2C190%2C192%2C160%2C18%2C19%2C20%2C12%2C13%2C33%2C30%2C31%2C66%2C72%2C74%2C86%2C113%2C116%2C35%2C87%2C16%2C14%2C91%2C57%2C28%2C118%2C117%2C119%2C110%2C17%2C27%2C46%2C85%2C26%2C173%2C146%2C84%2C1%2C106%2C65%2C95%2C41%2C36%2C93%2C94%2C99%2C45%2C11%2C101%2C92%2C53%2C40%2C43%2C0%2C78%2C127%2C98%2C9%2C96%2C249%2C188%2C136%2C176%2C169%2C8%2C44%2C73%2C51%2C120%2C54%2C90%2C69%2C68%2C39%2C111%2C67%2C64%2C58%2C89%2C83%2C32%2C112%2C29%2C130%2C215%2C214%2C216%2C221%2C222%2C223%2C219%2C211%2C151%2C186%2C210%2C212%2C251%2C189%2C139%2C180%2C165%2C148%2C248%2C133%2C155%2C140%2C171%2C147%2C201%2C131"></script><script async="" src="https://connect.facebook.net/signals/config/230239877657347?v=2.9.208&amp;r=stable&amp;domain=www.sherwoodforestfaire.com&amp;hme=c7027faad2bd527f2b384e7a6d6c55127377ecc46dce76c1ebbdd02e9451da4e&amp;ex_m=81%2C138%2C121%2C15%2C114%2C56%2C37%2C115%2C62%2C55%2C126%2C70%2C10%2C80%2C23%2C109%2C100%2C60%2C63%2C108%2C125%2C6%2C2%2C3%2C5%2C88%2C4%2C71%2C79%2C128%2C129%2C200%2C150%2C50%2C205%2C202%2C203%2C42%2C163%2C22%2C59%2C209%2C208%2C152%2C25%2C49%2C7%2C52%2C75%2C76%2C77%2C82%2C104%2C24%2C21%2C107%2C103%2C102%2C122%2C61%2C124%2C47%2C123%2C38%2C105%2C48%2C97%2C34%2C190%2C192%2C160%2C18%2C19%2C20%2C12%2C13%2C33%2C30%2C31%2C66%2C72%2C74%2C86%2C113%2C116%2C35%2C87%2C16%2C14%2C91%2C57%2C28%2C118%2C117%2C119%2C110%2C17%2C27%2C46%2C85%2C26%2C173%2C146%2C84%2C1%2C106%2C65%2C95%2C41%2C36%2C93%2C94%2C99%2C45%2C11%2C101%2C92%2C53%2C40%2C43%2C0%2C78%2C127%2C98%2C9%2C96%2C249%2C188%2C136%2C176%2C169%2C8%2C44%2C73%2C51%2C120%2C54%2C90%2C69%2C68%2C39%2C111%2C67%2C64%2C58%2C89%2C83%2C32%2C112%2C29%2C130"></script><script async="" src="js/fbevents.js"></script><script async="" src="js/gtm.js"></script><script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.sherwoodforestfaire.com/',
+        AccountUUID: 'c1f9a940fb4d4c0392fd141cac88908c',
+        SystemID: 'US_HIBU_PRODUCTION',
+        SiteAlias: 'cc7e03c69cfb4af5a037612fc246ca8a',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Fri Jun 06 22:42:29 UTC 2025',
+        ExternalUid: '357637658',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'about',
+        InitialPageUuid: 'e23d936f58fe4f5986eff573d2fe6386',
+        InitialPageId: '82335977',
+        InitialEncodedPageAlias: 'YWJvdXQ=',
+        InitialHeaderUuid: '5141e8392fb943ccb1c4bdc7cda1891b',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '500000',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'store',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '/store',
+        StoreId: '22471159',
+        StoreVersion: 2,
+        StoreBaseUrl: '/store',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.sherwoodforestfaire.com/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '753',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+        hamburgerMigration: null,
+        isFlexSite : false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+<!-- Injecting site-wide to the head -->
+<script data-swh-uuid="4a473525ae0e4f489a96b703e86858e9">
+
+    if (window.location.search.match(/[?,&]preview=true/) && window.top !== window) {      window.__AudioEyePreviewMode=true;    }  
+
+</script>
+<script data-swh-uuid="4a473525ae0e4f489a96b703e86858e9" type="text/javascript">
+
+!function(){    var b=function(){      window.__AudioEyeSiteHash = "be10d17c01bd4f512b1ff37430722d12";            var a=document.createElement("script");      a.src="https://wsmcdn.audioeye.com/aem.js";      a.type="text/javascript";            document.getElementsByTagName("body")[0].appendChild(a)};      "complete"!==document.readyState?window.addEventListener?window.addEventListener("load",b):window.attachEvent&&window.attachEvent("onload",b):b()}();    
+
+</script>
+<!-- End Injecting site-wide to the head -->
+<!-- Inject secured cdn script -->
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+<link href="https://www.sherwoodforestfaire.com/about" rel="canonical"/>
+<meta content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover" id="view" name="viewport"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<!--Add favorites icons-->
+<link href="img/site_favicon_16_1549942630954.ico" rel="icon" type="image/x-icon"/>
+<!-- End favorite icons -->
+<link href="https://le-cdn.hibuwebsites.com/" rel="preconnect"/>
+<!-- Prefetch Ecwid Javascript to speed up loading -->
+<link href="js/script.js" rel="prefetch"/>
+<script>
+    if (window.Parameters) {
+        window.Parameters.ecwidScriptUrl = 'https://app.multiscreenstore.com/script.js?22471159';
+    }
+</script>
+<!-- render the required CSS and JS in the head section -->
+<script id="d-js-dmapi">
+    window.SystemID = 'US_HIBU_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+<!-- loadCSS function header.jsp-->
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+body #dm #\31 192038157:not(.photo-gallery-done):not([data-widget-initialized]) { height: 22.5px !important; min-height: initial;}
+</style>
+<style id="cssVariables" type="text/css">
+</style>
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["b2f78025607d46d19174723879f60966~6"] = function (element, data, api) {
+        //create FB root element only once. This way re-rendering the element will not lose root.
+if(!document.getElementById('fb-root')) {
+    console.log("no fb root");
+    var fbDiv = document.createElement('div');
+    fbDiv.id = "fb-root";
+    document.body.appendChild(fbDiv);
+}
+
+//turn load SDK into a function to be called on page ready
+var loadFB = function(d, s, id, cb) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1822295708016537";
+  fjs.parentNode.insertBefore(js, fjs);
+};
+
+//attach event listner to runOnReady API. This loads the script every time there's a page change
+dmAPI.runOnReady('fb',function(){
+    //check if FB object is loaded and exists (improves performance)
+    if (typeof(FB) === "object") {
+        //load FB page if FB SDK exists. 
+        //Requests only FB page within custom widget to be rendered, incase multiple are on the page.
+        FB.XFBML.parse(element)
+    } else {
+        loadFB(document, 'script', 'facebook-jssdk');
+    }
+})
+
+    };
+</script>
+<script>
+    window.customWidgetsFunctions["d1ee5d5bf037471ea1770683731e577a~22"] = function (element, data, api) {
+        $(document).ready(function(){
+    $.getScript('https://widget.hibu.us/static/js/index.js')
+    .done(function(){
+        dmAPI.runOnReady('hibu_header_reviews',function(){
+            window.renderApp();
+        });
+        
+    })
+    .fail(function(){
+        console.log("failed to loaded header reviews js file")
+    });
+})
+
+
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_5519";
+    var build = "2025-06-05T12_49_29";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2025-06-05T12_49_29";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+<!-- Load jQuery -->
+<script id="d-js-jquery" src="js/jquery-3.7.0.min.js" type="text/javascript"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script type="text/javascript">
+    window.popups =
+    [{"title":"Request Service","url":"/request-service","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"895","overlayColor":"rgba(44, 44, 44,0.5)","height":"649"},"name":"request-service"}]</script>
+<script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<!-- HEAD RT JS Include -->
+<script id="d-js-params">
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.hibuwebsites.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/5519';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static-res-cdn.websites.hibu.com';
+    rtCommonProps["common.resources.folder"] = 'https://static-res-cdn.websites.hibu.com/mnlt/production/5519';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://le-cdn.hibuwebsites.com/';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+    rtCommonProps["streamline.monolith.personalization.skipRuleConditionsForPreview.enabled"] =false;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =false;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["runtime.cwv.report.cls.enabled"] =false;
+    rtFlags["editor.link.on.container"] =true;
+    rtFlags["flex.runtime.popup.with.show"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+    rtFlags["runtime.ssr.productCustomizations"] =true;
+    rtFlags["flex.megaMenu.a11y"] =true;
+</script>
+<script id="d-js-core" src="js/d-js-one-runtime-unified-desktop.min.js"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="js/d-js-jquery-migrate.min.js"></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  
+</style>
+<style id="criticalCss">
+    @charset "UTF-8";*,.dmPopup,:after,:before{box-sizing:border-box}@font-face{font-family:'Palatino Linotype';font-style:normal;font-weight:400;src:local("Palatino Linotype"),local("PalatinoLinotype-Roman"),url(https://dd-cdn.multiscreensite.com/fonts/additionalfonts/a7bbb29f8e80de7b4.woff) format("woff");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215;font-display:swap}@font-face{font-family:FontAwesome;font-display:block;src:url(https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.eot?v=6);src:url(https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.eot?#iefix&v=6) format("embedded-opentype"),url(https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.woff?v=6) format("woff"),url(https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.ttf?v=6) format("truetype"),url(https://static-res-cdn.websites.hibu.com/fonts/fontawesome-webfont.svg#fontawesomeregular?v=6) format("svg");font-weight:400;font-style:normal}@font-face{font-family:Gudea;font-style:normal;font-weight:400;font-display:swap;src:url(https://cdn.hibuwebsites.com/fonts/s/gudea/v15/neIFzCqgsI0mp9CI_oA.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Gudea;font-style:italic;font-weight:400;font-display:swap;src:url(https://cdn.hibuwebsites.com/fonts/s/gudea/v15/neILzCqgsI0mp9CNzoKmMw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Gudea;font-style:normal;font-weight:700;font-display:swap;src:url(https://cdn.hibuwebsites.com/fonts/s/gudea/v15/neIIzCqgsI0mp9gz25WBFqw.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}.dmInner{min-height:100vh!important;position:relative;min-width:768px!important}[dmtemplateid*=amburger] .dmLayoutWrapper{overflow:hidden}.clearfix:after{clear:both;visibility:hidden;line-height:0;height:0}.clearfix:after,.clearfix:before{content:' ';display:table}.clearfix{display:inline-block}#dm .dmWidget .icon{font-size:26px}body.dmRoot #dm .dmOuter .dmInner .dmWidget .icon.hasFontIcon{height:26px;margin-top:-13px;line-height:normal;text-align:center;background-image:none}.dmRoot .hasFontIcon{background-image:none!important}.dmPopupMask{position:fixed;margin:0;display:none;width:10px;z-index:1000000999;top:0;left:0}#dmRoot .dmPopup,.dmPopup,.dmPopupClose:before,[data-display-type=block],div[data-display-type=block]{display:block}.dmPopup{text-align:left;position:fixed;top:10px;left:0;width:93%;z-index:1000009999!important;background:#f5f5f5;overflow-y:auto;height:100%}.dmPopup .dmPopupTitle{text-align:left;font:700 19px Helvetica,Arial;margin:20px 20px 35px;color:#999}.lh-1,button{line-height:normal}#dmPopup{opacity:0}.dmPopupClose,.dmPopupClose:before{position:absolute;visibility:visible}.dmPopupClose{border-radius:25px;width:27px;height:27px;z-index:1;background-color:rgba(255,255,255,.4);top:12px;right:12px}.dmPopupClose:before{font-size:20px;color:#000;top:3px;right:3px}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar{width:5px;height:5px}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-track{background:rgba(0,0,0,.1)}body.dmDesktopBody:not(.mac) .data::-webkit-scrollbar-thumb{background:#c8c8c8;box-shadow:inset 0 1px 2px #454545;border-radius:45px}#dm .dmRespRow .dmRespColsWrapper{display:flex}#dm .dmInner .dmWidget.align-center,.align-center{margin-left:auto;margin-right:auto}.text-align-center{text-align:center}body.fix-mobile-scrolling{overflow:initial}#dmRoot{text-decoration-skip-ink:none}#dm .sticky-widgets-container-global{z-index:3;position:relative}@media (min-width:1025px){#dmRoot.responsiveTablet #dm #dmStyle_outerContainer #dmStyle_innerContainer .showOnMedium,#dmRoot.responsiveTablet #dm .dmInner .hide-for-large{display:none!important}#dmRoot.responsiveTablet #dm [data-responsive-name=ResponsiveDesktopTopTabletHamburger] .site_content{margin-top:0!important}:root{--btn-text-font-size:15px}}@media (max-width:767px){#dmRoot.responsiveTablet #dm #dmStyle_outerContainer #dmStyle_innerContainer #hamburger-header-container~#stickyHeaderSpacer,#dmRoot.responsiveTablet #dm #dmStyle_outerContainer #dmStyle_innerContainer .showOnLarge,#dmRoot.responsiveTablet #dm .dmInner .hide-for-small{display:none!important}}@media (min-width:768px) and (max-width:1024px){#dmRoot.responsiveTablet #dm #dmStyle_outerContainer #dmStyle_innerContainer #hamburger-header-container~#stickyHeaderSpacer,#dmRoot.responsiveTablet #dm #dmStyle_outerContainer #dmStyle_innerContainer .showOnLarge,#dmRoot.responsiveTablet #dm .dmInner .hide-for-medium,[data-hidden-on-tablet]{display:none!important}:root{--btn-text-font-size:15px}}@media (min-width:1025px) and (max-width:1399px){[data-hidden-on-desktop]{display:none!important}}body{-webkit-overflow-scrolling:touch}:not(.runtime-module-container) .layout-drawer,:not(.runtime-module-container) .layout-drawer-hamburger,:not(.runtime-module-container) .layout-drawer-overlay{visibility:hidden}:not(.runtime-module-container) .layout-drawer{position:fixed;transform:translate(-100%,-100%)}:not(.runtime-module-container) .layout-drawer-overlay{opacity:0}.runtime-module-container{width:100%}.runtime-module-container[dmtemplateid*=amburger] #site_content,.runtime-module-container[dmtemplateid*=amburger] .dmInner{position:static}.runtime-module-container[dmtemplateid*=amburger] #site_content .site_content{position:relative}.runtime-module-container[dmtemplateid*=amburger] .dmLayoutWrapper{background-color:transparent}.runtime-module-container .hamburger-header-container{position:fixed;z-index:2;top:0;left:0;width:100%}.runtime-module-container .hamburger-header-container .hamburger-header{min-height:43px}.runtime-module-container .layout-drawer,.runtime-module-container .layout-drawer-hamburger,.runtime-module-container .layout-drawer-overlay{visibility:visible}.runtime-module-container[dmtemplateid*=amburger] .site_content{margin-top:59px}.runtime-module-container .layout-drawer,.runtime-module-container .layout-drawer-overlay{height:100%;position:fixed;top:0;left:0}.runtime-module-container .layout-drawer{background-color:#fff;width:75vw;transform:translate(-100%,0);overflow:auto;-webkit-overflow-scrolling:auto;z-index:13;display:flex;flex-direction:column}.runtime-module-container .layout-drawer .dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:0}.runtime-module-container .layout-drawer[data-origin=side]{width:75vw}.runtime-module-container .layout-drawer-overlay{width:100vw;background-color:rgba(0,0,0,.4);opacity:0;z-index:6}body:not([data-flex-site]) .layout-drawer .dmRespRow:not(:first-of-type):not(:last-of-type){flex:1 1 auto}.layout-drawer-hamburger{background:0 0;-webkit-appearance:none;appearance:none;position:fixed;left:18px;margin-left:env(safe-area-inset-left);padding:17px 11px;z-index:14;width:52px;height:52px;color:#787878;display:flex;flex-direction:column;border:0;justify-content:space-between;align-items:stretch;top:18px;border-radius:0}.layout-drawer-hamburger:not(:focus){outline:unset}.layout-drawer-hamburger .hamburger__slice{display:block;height:0;width:100%;border:1px solid currentColor;transform-origin:center}@media (max-width:767px){.layout-drawer-hamburger{background:0 0;-webkit-appearance:none;appearance:none;position:fixed;left:10px;margin-left:env(safe-area-inset-left);padding:13px 9px;z-index:14;width:40px;height:40px;color:#787878;display:flex;flex-direction:column;border:0;justify-content:space-between;align-items:stretch;top:10px;border-radius:0}.layout-drawer-hamburger:not(:focus){outline:unset}.layout-drawer-hamburger .hamburger__slice{display:block;height:0;width:100%;border:1px solid currentColor;transform-origin:center}}#dm-outer-wrapper #hamburger-header-container #hamburger-header .dmRespCol{display:flex;flex-direction:column;justify-content:center}nav{display:block}html{font-family:Source Sans Pro;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}b{font-weight:700}img{border:0;max-width:100%;-ms-interpolation-mode:bicubic;display:inline-block}svg:not(:root){overflow:hidden}button{font-family:inherit;font-size:100%;margin:0;text-transform:none;-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}.dmRespRow{padding-top:15px;padding-bottom:15px}.dmRespRow:after,.dmRespRow:before{content:' ';display:table}.dmRespRow:after{clear:both}.dmRespRow,.dmRespRow .dmRespColsWrapper{max-width:960px;position:relative;margin:0 auto;width:100%}.dmRespRow .dmRespCol{position:relative;width:100%;display:inline-block;vertical-align:top;float:left}.dmRespRow .dmRespCol>*{max-width:100%}.dmDesktopBody .dmRespRow .large-4{position:relative;width:33.33333%}.dmDesktopBody .dmRespRow .large-6{position:relative;width:50%}.dmDesktopBody .dmRespRow .large-12{position:relative;width:100%}.socialHubIcon,[class*=' dm-common-icons-'],[class*=' dm-social-icons-']{font-family:dm-social-icons!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.dm-social-icons-facebook:before{content:'\ea90'}.dm-social-icons-instagram:before{content:'\ea92'}.dm-social-icons-twitter:before{content:'\ea96'}.dm-social-icons-youtube:before{content:'\ea9d'}[class*=' dm-common-icons-']{font-family:dm-common-icons!important}.dm-common-icons-close:before{content:'\e901'}[class*=' icon-']{font-family:FontAwesome!important;font-weight:400;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}[class*=' icon-']:before{text-decoration:none;display:inline-block;speak:none}a [class*=' icon-']{display:inline}.icon-star:before{content:'\f005'}.icon-map-marker:before{content:'\f041'}.icon-calendar:before{content:'\f073'}.icon-key:before{content:'\f084'}.icon-angle-right:before{content:'\f105'}.icon-angle-down:before{content:'\f107'}#dm .dmRespRow .dmRespCol>.dmWidget{overflow:initial}@media (min-width:768px){#dm .dmRespRow .dmRespCol>.dmWidget{width:280px;max-width:100%}}@media (max-width:767px){#dm .dmInner .dmWidget{width:100%}}#dm .dmInner .dmWidget:not(.displayNone){display:inline-block}#dm .dmInner .dmWidget:not(.flexButton):not(.displayNone)[data-display-type=block]{display:block}#dm .dmInner .dmWidget{text-decoration:none;margin:10px 0;clear:both;position:relative;text-align:center;line-height:22px;box-shadow:none;background-image:none;padding:0;height:auto;border-style:solid;white-space:nowrap}#dm .dmInner .dmWidget:after{content:'';display:inline-block;height:100%;vertical-align:middle;width:0;margin-right:-.25em}#dm .dmInner .dmWidget .iconBg{position:absolute;left:0;width:50px;top:50%;margin-top:-13px}#dm .dmWidget .text{display:inline-block;vertical-align:middle;font-size:1.125em;line-height:normal;white-space:normal;padding:10px 7px;max-width:98%}html:not(.ios-preview) #dm .hasStickyHeader .dmInner div.dmHeaderContainer{position:fixed!important;z-index:101;width:100%;min-width:768px}#dm .hasStickyHeader .sticky-widgets-container-global{z-index:102}.dmNewParagraph[data-version]{line-height:initial}.dmNewParagraph[data-version] .text-align-right{text-align:right!important}.dmNewParagraph[data-version] h3,.dmNewParagraph[data-version] p{margin-top:0;margin-bottom:0}.dmNewParagraph[data-version] a{vertical-align:initial}@media (max-width:767px){.dmRoot .dmNewParagraph[data-version] .m-text-align-center{text-align:center!important}}.imageWidget{position:relative}.imageWidget a{font-style:italic;text-align:center}.graphicWidget{width:200px;height:200px;margin:10px auto;text-align:center}.graphicWidget svg.svg{width:100%;height:100%;color:#000;fill:#000}.socialHubIcon{display:flex!important;align-items:center;justify-content:center}.socialHubIcon.style6{background:#617379}.style6.dmSocialFacebook{background:#1877f2}.style6.dmSocialTwitter{background:#0f1419}.style6.dmSocialInstagram{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)!important}.style6.dmSocialYoutube{background:red}.dmFooter,.dmHeader,.dmInner{background:#fff}.headerWidget{min-height:22px}img[width][height]{height:auto}*{border:0 solid #333;scrollbar-arrow-color:#fff;scrollbar-track-color:#F2F2F2;scrollbar-face-color:silver;scrollbar-highlight-color:silver;scrollbar-3dlight-color:silver;scrollbar-shadow-color:silver;scrollbar-darkshadow-color:silver;scrollbar-width:12px}body{width:100%;overflow:hidden;-webkit-text-size-adjust:100%!important;-ms-text-size-adjust:100%!important}A IMG{border:none}h3,ul{margin-left:0;margin-right:0}.dmInner *{-webkit-font-smoothing:antialiased}span.oneIcon:before{display:inline-block}.clearfix,a,iframe,img,li,ul{vertical-align:top}#site_content{position:relative}.dmOuter{word-wrap:break-word}.dmInner{font-size:16px;color:#111}.dmDesktopBody .dmInner{min-width:960px}.dmInner a{color:#463939;outline:0;vertical-align:inherit}.dmInner ul:not(.defaultList){padding:0}.dmHeader{color:#111;text-align:center;position:relative;width:100%;max-width:100%}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container .nav-item-text::before,.dmFooter,.dmNewParagraph{text-align:left}DIV.dmBody{padding:0;clear:both}.dmContent{margin:0;padding:0}#site_content ul:not(.defaultList){-webkit-padding-start:0;-moz-padding-start:0;list-style-position:inside}.dmRespRowsWrapper{max-width:960px;margin:0 auto}.dmRespCol>.dmBlockElement:not(:first-child),.dmRespCol>[dmle_extension]:not(:first-child){margin-top:10px}.dmLargeBody .imageWidget:not(.displayNone){display:inline-block;max-width:100%}#dm .dmRespColsWrapper,.dmStandardDesktop{display:block}.imageWidget:not(.displayNone) img{width:100%}h3{font-weight:400;font-size:23px}.dmNewParagraph{margin:8px 0;padding:2px 0}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol,.dmLargeBody .fHeader .dmRespRow .dmRespCol{padding-left:.75%;padding-right:.75%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:first-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:first-child{padding-left:0;padding-right:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:last-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:last-child{padding-right:0;padding-left:1.5%}.dmLargeBody .dmRespRowsWrapper>.dmRespRow .dmRespCol:only-child,.dmLargeBody .fHeader .dmRespRow .dmRespCol:only-child{padding-left:0;padding-right:0}.dmFooterContainer{position:relative}.dmFooter{font-size:1em;font-weight:400;padding:0}.dmLargeBody .dmFooterResp>.dmRespRow .dmRespCol{padding-left:.75%;padding-right:.75%}.dmLargeBody .dmFooterResp>.dmRespRow .dmRespCol:first-child{padding-left:0;padding-right:1.5%}.dmLargeBody .dmFooterResp>.dmRespRow .dmRespCol:last-child{padding-right:0;padding-left:1.5%}#dmFirstContainer .dmRespRowsWrapper:after,#dmFirstContainer .dmRespRowsWrapper:before{content:"";display:table}.dmLinksMenu>ul{display:block;margin:0;font-size:inherit}.dmStandardDesktop{margin:0 auto}.dmCustomHtml{margin:10px 0}.inlineMap{height:200px;width:100%}.dmSocialHub{clear:both}#dm .dmSocialHub a{display:inline-block;text-decoration:none;margin:0;vertical-align:bottom}.dmSocialHub>div{text-align:inherit}a span.socialHubIcon{width:36px;height:36px;font-size:31px;display:inline-block;text-align:center;margin-right:0;margin-bottom:5px;line-height:36px;box-sizing:content-box;background-image:none!important}.socialHubIcon.style6,.socialHubIcon.style8{font-size:24px;padding:4px;border-radius:50%;color:#fff}.socialHubIcon.style8{background:#000}#dm .dmSocialHub .socialHubWrapper{display:inline-block;max-width:100%}body{background-color:#eee}.main-navigation.unifiednav{-js-display:flex;display:flex;justify-content:flex-start;align-items:stretch;overflow:visible}.main-navigation.unifiednav ul{list-style:none;padding:0;margin:0;font-size:1rem}.main-navigation.unifiednav .unifiednav__container{-js-display:flex;display:flex;justify-content:flex-start;list-style:none}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap{-js-display:flex;display:flex;justify-content:flex-start;position:relative;font-weight:400}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::before{content:'';align-self:center;font-weight:700}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{-js-display:flex;display:flex;justify-content:flex-start;align-items:center;flex-direction:row;color:inherit;text-decoration:none;position:relative;padding:12px 15px;margin:0;font-weight:inherit;letter-spacing:.03em}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:0 15px}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:nowrap}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{content:'';width:100%;height:0;border:0 solid transparent;border-top-color:currentColor;display:block;opacity:0}.main-navigation.unifiednav.effect-bottom{padding:calc(12px - .2em - 2px) 15px}.main-navigation.unifiednav.effect-bottom .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav.effect-bottom .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{transform:scaleX(0);border-top-width:2px}.main-navigation.unifiednav.effect-bottom .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after{margin-top:.2em}.main-navigation.unifiednav.effect-bottom .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{margin-bottom:.2em;border-top-color:transparent}.main-navigation.unifiednav.effect-text-color{padding:12px 15px}.main-navigation.unifiednav .unifiednav__container .unifiednav__item:not(.unifiednav__item_has-sub-nav) .icon{display:none}.main-navigation.unifiednav .unifiednav__container[data-depth='1']{min-width:100%}.main-navigation.unifiednav .unifiednav__container[data-depth]{position:absolute;top:0;left:0;flex-direction:column;opacity:0;z-index:100;background-color:#faf9f9}.main-navigation.unifiednav .unifiednav__container[data-depth='0']{top:100%;transform:translateY(-10px)}.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container[data-depth='0']{left:15px}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap .unifiednav__container>.unifiednav__item-wrap{flex-direction:column}.main-navigation.unifiednav .unifiednav__container[data-depth]>.unifiednav__item-wrap .unifiednav__item{padding:15px 30px 15px 15px;margin:0}.main-navigation.unifiednav .unifiednav__container[data-depth]>.unifiednav__item-wrap:not(:last-child)::after{content:''!important;width:100%;height:0;color:#ececec;align-self:center;border:0 solid currentColor}.main-navigation.unifiednav[layout-sub=submenu_horizontal_2] .unifiednav__container[data-depth]{color:#999}.main-navigation.unifiednav[layout-sub=submenu_horizontal_2] .unifiednav__container[data-depth]>.unifiednav__item-wrap:not(:last-child)::after{border-top-width:1px}.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container[data-depth='1']{transform:translateX(-10%) translateY(0);left:100%}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item.unifiednav__item_has-sub-nav .icon{display:initial;padding-left:10px;margin-left:0}.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item_has-sub-nav .icon{transform:rotate(0)}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{justify-content:inherit}#dm .p_hfcontainer nav.main-navigation.unifiednav{min-width:9em!important;text-align:initial!important}#dm .main-navigation.unifiednav .unifiednav__container[data-depth]{background-color:transparent}#dm .main-navigation.unifiednav[layout-sub=submenu_horizontal_2] .unifiednav__container[data-depth]{background-color:#faf9f9}#dm .main-navigation.unifiednav .unifiednav__container[data-depth]>.unifiednav__item-wrap:not(:last-child)::after{color:#d1d1d1}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container{flex-direction:column;flex:1 1 100%}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{padding:8px 0;margin:0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item.unifiednav__item_has-sub-nav .icon{padding-left:15px}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:initial}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap{flex-direction:column}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__container[data-depth]{opacity:1;position:static;transform:translate(0)}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__container[data-depth]>.unifiednav__item-wrap .unifiednav__item{justify-content:inherit;padding:8px 1em;margin:0;font-size:.8em}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__container[data-depth]>.unifiednav__item-wrap .unifiednav__item.unifiednav__item_has-sub-nav .icon::before{transform-origin:center;transform:rotate(90deg)}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__container[data-depth] .unifiednav__container[data-depth]{padding-left:12px}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after{content:''!important;width:100%;height:0;color:#d1d1d1;align-self:flex-start;border:0 solid currentColor}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][layout-main=vertical_nav_layout_2] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:5px 0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][layout-main=vertical_nav_layout_2] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__container[data-depth]>.unifiednav__item-wrap .unifiednav__item{padding:8px 12px}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][data-show-vertical-sub-items=HIDE] .unifiednav__container[data-depth]{transform-origin:top;height:auto;overflow:hidden}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][data-show-vertical-sub-items=HIDE]>.unifiednav__container:not([data-depth])>.unifiednav__item-wrap .unifiednav__container[data-depth]{opacity:0;max-height:0}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL])>.unifiednav__container{flex-wrap:wrap;justify-content:inherit}#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{content:''}.dmRoot:not(.dmTabletBody):not(.dmMobileBody) #dm .main-navigation.unifiednav:not([data-nav-structure=SPLIT]) .unifiednav__container[data-depth='1']{max-height:65vh;overflow-y:auto}.dmRoot:not(.dmTabletBody):not(.dmMobileBody) #dm .main-navigation.unifiednav:not([data-nav-structure=SPLIT]) .unifiednav__container[data-depth='1'] .unifiednav__item-wrap{flex-shrink:0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item.unifiednav__item_has-sub-nav .icon{display:inline-block;padding-right:0}#dm .dmBody .dmRespRowsWrapper{max-width:none;background-color:transparent}.dmLargeBody .dmRespRow{width:100%;max-width:none;margin-left:0;margin-right:0;padding-left:40px;padding-right:40px}#dm .fHeader .dmHeaderContent.freeHeaderRow1{padding:30px 0}.dmStandardDesktop .dmHeader{background-color:#fff;max-width:100%}.dmFooter{background-color:#333;color:#f7f7f7}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:100px!important}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed).empty-column,.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:100px}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespCol:not(.content-removed).empty-column,.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespCol:not(.content-removed):empty{min-height:1px}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child.empty-column{min-height:100px}#dm div.dmRespCol>*{line-height:150%}#dm .dmBlockElement a,#dm .dmNewParagraph a,#dm div.dmBlockElement a,#dm div.dmNewParagraph a{text-decoration:underline;color:rgba(240,186,40,1)}.dmLargeBody .dm-layout-sec .dmBody .dmRespRowsWrapper,.dmLargeBody .dmBody .dmRespRowsWrapper{background-color:transparent}#dm div.dmInner,#dm div.dmInner .dmRespCol{font-family:Gudea,"Gudea Fallback";color:rgba(255,255,255,1);font-size:15px}#dm div.dmFooter h3,#dm div.p_hfcontainer h3{color:rgba(240,186,40,1);font-family:'Palatino Linotype';font-size:22px}#dm .dmContent .dmRespRow,#dm .dmFooter .dmRespRow{background-color:rgba(0,0,0,0)}#dm div.dmRespCol>[data-version]{line-height:1.5}#dm DIV.dmOuter DIV.dmInner{background-color:rgba(0,0,0,1);background-image:url(https://le-cdn.hibuwebsites.com/cc7e03c69cfb4af5a037612fc246ca8a/dms3rep/multi/opt/shutterstock_166500833-2ac5545c-5171h.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed;background-position:50% 50%}#dm .dmInner div.dmHeader,#dm .dmInner div.dmHeader.u_hcontainer,#dm .dmInner div.u_hcontainer,#dm .p_hfcontainer div#hamburger-header,div#\31 571063569{background-repeat:no-repeat!important;background-image:url(https://le-cdn.hibuwebsites.com/cc7e03c69cfb4af5a037612fc246ca8a/dms3rep/multi/opt/header-bg-1920w.png),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TpUUqHSwo4pChOlkQFemoVShChVArtOpgcukXNGlIUlwcBdeCgx+LVQcXZ10dXAVB8APEzc1J0UVK/F9aaBHjwXE/3t173L0DhEaFaVbPBKDptplOJsRsblUMvEJAGEEMIi4zy5iTpBQ8x9c9fHy9i/Es73N/jn41bzHAJxLPMsO0iTeIZzZtg/M+cYSVZJX4nHjcpAsSP3JdafEb56LLAs+MmJn0PHGEWCx2sdLFrGRqxNPEUVXTKV/ItljlvMVZq9RY+578haG8vrLMdZojSGIRS5AgQkENZVRgI0arToqFNO0nPPzDrl8il0KuMhg5FlCFBtn1g//B726twtRkKymUAHpfHOdjFAjsAs2643wfO07zBPA/A1d6x19tAPFP0usdLXoEhLeBi+uOpuwBlzvA0JMhm7Ir+WkKhQLwfkbflAMGboG+tVZv7X2cPgAZ6ip1AxwcAmNFyl73eHewu7d/z7T7+wFwJnKmZ9+MiwAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+UCDwksLkLIPkkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAC0lEQVQI12NgAAIAAAUAAeImBZsAAAAASUVORK5CYII=)!important}@media all{:root{--btn-text-direction:ltr;--btn-border-r-color:var(--btn-border-color);--btn-border-l-color:var(--btn-border-color);--btn-border-b-width:var(--btn-border-width);--btn-border-width:0px;--btn-border-radius:0px;--btn-border-t-width:var(--btn-border-width);--btn-border-tl-radius:var(--btn-border-radius);--btn-border-br-radius:var(--btn-border-radius);--btn-border-bl-radius:var(--btn-border-radius);--btn-bg-color:rgb(36, 16, 154);--btn-border-color:rgb(247, 247, 247);--btn-border-tr-radius:var(--btn-border-radius);--btn-border-r-width:var(--btn-border-width);--btn-border-b-color:var(--btn-border-color);--btn-border-l-width:var(--btn-border-width);--btn-border-t-color:var(--btn-border-color);--btn-text-align:center;--btn-text-color:rgb(255, 255, 255);--btn-text-decoration:none;--btn-icon-color:rgb(247, 247, 247);--btn-icon-fill:rgb(247, 247, 247);--btn-icon-wrpr-display:none;--btn-hover-border-b-color:var(--btn-hover-border-color);--btn-hover-bg:rgb(24, 28, 189);--btn-hover-border-t-color:var(--btn-hover-border-color);--btn-hover-border-r-color:var(--btn-hover-border-color);--btn-hover-border-l-color:var(--btn-hover-border-color);--btn-hover-border-color:rgb(51, 51, 51);--btn-hover-text-color:var(--btn-text-color);--btn-hover-text-font-weight:var(--btn-text-font-weight);--btn-hover-text-decoration:var(--btn-text-decoration);--btn-hover-text-font-style:var(--btn-text-font-style)}}@media (min-width:0px) and (max-width:767px){:root{--btn-text-font-size:15px}}#dm .dmWidget:not([data-buttonstyle]){overflow:initial;background-clip:border-box;border-radius:2px}#dm .dmWidget:not([data-buttonstyle]) .text{padding:10px 7px}#dm .dmWidget:not([data-buttonstyle]) .iconBg{display:none}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=FLAT_ROUND_ICON]{background-clip:border-box;border-radius:6px;padding:0 0 0 40px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=FLAT_ROUND_ICON] .text{padding:10px 7px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=FLAT_ROUND_ICON] .iconBg{display:block}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES]{border-radius:50px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES] .text{padding:10px 0}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=ROUND_SIDES] .iconBg{display:none}#dm div.dmInner #site_content .dmWidget,#dm div.dmInner .dmHeader .dmWidget{background-color:var(--btn-bg-color);border-color:var(--btn-border-color);border-bottom-color:var(--btn-border-b-color);border-left-color:var(--btn-border-l-color);border-right-color:var(--btn-border-r-color);border-top-color:var(--btn-border-t-color);border-radius:var(--btn-border-radius);border-bottom-left-radius:var(--btn-border-bl-radius);border-bottom-right-radius:var(--btn-border-br-radius);border-top-left-radius:var(--btn-border-tl-radius);border-top-right-radius:var(--btn-border-tr-radius);border-width:var(--btn-border-width);border-bottom-width:var(--btn-border-b-width);border-left-width:var(--btn-border-l-width);border-right-width:var(--btn-border-r-width);border-top-width:var(--btn-border-t-width);direction:var(--btn-text-direction);text-align:var(--btn-text-align)}#dm div.dmInner #site_content .dmWidget span.text{color:var(--btn-text-color);font-size:var(--btn-text-font-size);text-decoration:var(--btn-text-decoration)}#dm div.dmInner #site_content .dmWidget span.icon,#dm div.dmInner .dmHeader .dmWidget span.icon{color:var(--btn-icon-color);fill:var(--btn-icon-fill)}#dm div.dmInner #site_content .dmWidget:not([data-buttonstyle]) .iconBg,#dm div.dmInner .dmHeader .dmWidget:not([data-buttonstyle]) .iconBg{display:var(--btn-icon-wrpr-display)}#dm .p_hfcontainer div.u_1542733529{display:block!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav .unifiednav__container[data-depth="0"]{top:calc(100% - 0px - 0px)!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child) .unifiednav__container[data-depth="0"]{left:30px!important}#dm .p_hfcontainer div.u_1152129910 img{border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important}#dm .p_hfcontainer nav.u_1030165537{color:#fff!important}#dm .p_hfcontainer div.u_1297285058 .socialHubIcon{background-color:rgba(255,255,255,1)!important;color:rgba(39,42,47,1)!important;border-color:rgba(39,42,47,1)!important}#dm .p_hfcontainer .u_1030165537.main-navigation.unifiednav:not([image]) .unifiednav__container[data-depth="0"]{top:calc(100% - 12px - 0px)!important}#dm .p_hfcontainer .u_1030165537.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{justify-content:flex-start!important;text-align:left!important;padding-top:12px!important;padding-bottom:12px!important}#dm .p_hfcontainer .u_1030165537.main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after{align-self:flex-start!important}#dm .p_hfcontainer .u_1030165537.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item{justify-content:flex-start!important;padding-top:10px!important;padding-bottom:10px!important}#dm .p_hfcontainer nav.u_1030165537.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{color:rgba(255,255,255,.7)!important;font-weight:400!important}#dm .p_hfcontainer nav.u_1030165537.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item{font-weight:400!important;color:rgba(255,255,255,.6)!important}#dm .p_hfcontainer div.u_1667569145{background-color:#f4f4f4!important}#dm .dmInner div.dmFooter,#dm .p_hfcontainer div.u_1459188454,#dm .p_hfcontainer div.u_1473653831,#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav .unifiednav__container[data-depth]{background-color:rgba(0,0,0,1)!important}#dm .dmInner div.dmHeader,#dm .dmInner div.dmHeader.u_hcontainer,#dm .dmInner div.u_hcontainer{box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important;background-size:cover!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav:not([image]) .unifiednav__container[data-depth="0"]{top:calc(100% - 0px - 0px)!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav[data-nav-structure=HORIZONTAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child) .unifiednav__container[data-depth="0"]{left:10px!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:14px!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item{padding:5px 10px!important}#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav .unifiednav__container[data-depth]>.unifiednav__item-wrap:not(:last-child)::after{border-top-color:rgba(0,0,0,1)!important;border-top-style:solid!important;border-top-width:0!important}#dm .p_hfcontainer div.u_1336229272{background-color:rgba(36,16,154,1)!important}#dm .p_hfcontainer a.u_1708161320 span.text{font-weight:400!important}#dm .p_hfcontainer div.u_1329429662 .svg,#dm .p_hfcontainer div.u_1362554833 .svg,#dm .p_hfcontainer div.u_1780465830 .svg{color:rgba(255,255,255,1)!important;fill:rgba(255,255,255,1)!important;display:inline-block!important}a.u_1308523308 .iconBg,a.u_1947957819 .iconBg{display:none!important}div.u_1129942752{color:rgba(255,255,255,1)!important}#dm .p_hfcontainer div.u_1571063569{background-color:rgba(0,0,0,0)!important}a.u_1308523308,a.u_1947957819{background-color:rgba(33,108,42,1)!important}a.u_1308523308{border-radius:50px!important;-moz-border-radius:50px!important;-webkit-border-radius:50px!important}a.u_1947957819{border-radius:50px!important;-moz-border-radius:50px!important;-webkit-border-radius:50px!important}#dm .p_hfcontainer .u_1446878590.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:0 5px!important;margin:0!important}#dm .p_hfcontainer a.u_1392639020{background-color:rgba(43,109,31,.8)!important;box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-moz-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-webkit-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;border-radius:6px!important;-moz-border-radius:6px!important;-webkit-border-radius:6px!important}#dm .p_hfcontainer a.u_1392639020 span.icon{color:rgba(192,150,34,1)!important;fill:rgba(192,150,34,1)!important}#dm .p_hfcontainer a.u_1837254587{display:block!important;float:none!important;top:0!important;left:0!important;width:280px!important;position:relative!important;height:45px!important;margin-right:auto!important;margin-left:calc(100% - 280px)!important;max-width:100%!important;margin-top:10px!important;margin-bottom:10px!important;min-width:0!important;text-align:center!important;padding:0!important}#dm .p_hfcontainer div.u_1667569145{padding:0 40px!important}#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important}#dm .p_hfcontainer div.u_1905041340{float:none!important;top:0!important;left:0!important;width:100%!important;position:relative!important;height:auto!important;max-width:none!important;min-width:0!important;text-align:center!important;margin:0 auto!important;padding:15px 40px!important}#dm .p_hfcontainer div#hamburger-drawer.layout-drawer{background-color:rgba(39,42,47,1)!important}#dm .p_hfcontainer #hamburger-drawer.layout-drawer:not([data-origin=top]){width:40vw!important}#dm .p_hfcontainer .u_1297285058 .socialHubInnerDiv a{margin-right:14px!important}#dm .p_hfcontainer .u_1297285058 .socialHubIcon{width:30px!important;height:30px!important;font-size:20px!important;line-height:30px!important}#dm .p_hfcontainer .u_1297285058 .socialHubIcon:after{width:38px!important;height:30px!important}#dm .p_hfcontainer div.u_1090160641{padding:0!important;margin:0!important}#dm .p_hfcontainer div.u_1785133682{margin-top:0!important;padding:0!important}#dm .p_hfcontainer div.u_1405630916{margin-top:0!important;padding:100px 40px!important}#dm .p_hfcontainer nav.u_1030165537{float:none!important;top:0!important;left:0!important;width:892.99px!important;position:relative!important;height:auto!important;max-width:calc(100% - 0px)!important;justify-content:flex-start!important;align-items:stretch!important;min-width:25px!important;text-align:start!important;padding:0!important;margin:30px 0 0!important}#dm .p_hfcontainer div.u_1369553724{padding-top:130px!important;margin-top:0!important;padding-right:40px!important;padding-left:40px!important}#dm .p_hfcontainer div.u_1329429662,#dm .p_hfcontainer div.u_1362554833,#dm .p_hfcontainer div.u_1780465830{width:45px!important;height:44px!important;display:block!important;float:left!important;top:0!important;position:relative!important;max-width:100%!important;min-width:0!important;text-align:center!important;padding:0 5px 0 0!important;left:0!important}#dm .p_hfcontainer nav.u_1030165537.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{font-size:22px!important}#dm .p_hfcontainer nav.u_1030165537.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item{font-size:18px!important}#dm .p_hfcontainer div.u_1531411870{margin-top:12px!important}#dm .p_hfcontainer div.u_1329429662{margin:10px auto 10px 0!important}#dm .p_hfcontainer .u_1725189860 .socialHubIcon{width:28px!important;height:28px!important;font-size:18.67px!important;line-height:28px!important}#dm .p_hfcontainer .u_1725189860 .socialHubIcon:after{width:36px!important;height:28px!important}#dm .p_hfcontainer div.u_1725189860,#dm .p_hfcontainer h3.u_1208026434{float:none!important;top:0!important;width:100%!important;position:relative!important;height:auto!important;max-width:100%!important;min-width:0!important;display:block!important}#dm .p_hfcontainer h3.u_1208026434{left:0!important;text-align:right!important;padding:2px 0!important;margin:8px 0 8px auto!important}#dm .p_hfcontainer div.u_1725189860{left:0!important;text-align:left!important;padding:0!important;margin:10px auto 0 0!important}#dm .p_hfcontainer div.u_1336229272{padding-top:5px!important;padding-bottom:5px!important}#dm .p_hfcontainer a.u_1708161320,#dm .p_hfcontainer div.u_1297285058,#dm .p_hfcontainer div.u_1656197665{left:0!important;position:relative!important;max-width:100%!important;padding:0!important;float:none!important;top:0!important;text-align:center!important}#dm .p_hfcontainer div.u_1630937774{font-size:14px!important}#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav:not([data-nav-structure=VERTICAL]) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{padding-top:0!important;padding-bottom:0!important;margin-top:0!important;margin-bottom:0!important}#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item,#dm .p_hfcontainer nav.u_1446878590.main-navigation.unifiednav .unifiednav__container[data-depth] .unifiednav__item{color:rgba(255,255,255,1)!important;font-size:14px!important}#dm .p_hfcontainer a.u_1708161320{width:calc(100% - 0px)!important;height:45px!important;min-width:25px!important;margin:10px auto!important}#dm .p_hfcontainer div.u_1656197665{width:calc(100% - 0px)!important;height:295px!important;min-width:25px!important;margin:10px auto 0!important}#dm .p_hfcontainer div#hamburger-header{box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-moz-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;-webkit-box-shadow:rgba(0,0,0,.25) 0 3px 11px 0!important;background-color:rgba(90,20,117,1)!important;background-size:cover!important;background-position:50% 50%!important}[dmtemplateid=Hamburger] .layout-drawer-hamburger.hamburger-on-header{color:rgba(255,255,255,1)!important;background-color:rgba(0,0,0,0)!important}#dm .p_hfcontainer div.u_1297285058{width:308.72px!important;height:auto!important;min-width:0!important;display:block!important;margin:22px auto 0!important}#dm .p_hfcontainer div.u_1542733529{float:none!important;top:0!important;max-width:438.59px!important;left:0!important;width:calc(100% - 0px)!important;position:relative!important;min-width:25px!important;text-align:center!important;padding:0!important;margin:4px 0 0!important}#dm .p_hfcontainer div.u_1152129910,div.u_1129942752{float:none!important;top:0!important;max-width:100%!important;width:calc(100% - 0px)!important;padding:0!important;min-width:25px!important;left:0!important;position:relative!important}#dm .p_hfcontainer div.u_1152129910{text-align:center!important;display:block!important;margin:0 auto!important}div.u_1129942752{text-align:start!important;height:auto!important;font-size:15px!important}a.u_1308523308,a.u_1947957819{float:none!important;top:0!important;text-align:center!important}#dm .p_hfcontainer a.u_1392639020 span.text,a.u_1308523308 span.text,a.u_1947957819 span.text{font-size:18px!important}#dm .p_hfcontainer div.u_1571063569{margin-bottom:0!important;margin-top:0!important;padding-left:30px!important;padding-right:30px!important;padding-bottom:20px!important}div#\31 571063569{background-size:cover!important;padding-top:20px!important}a.u_1308523308{left:0!important;width:calc(100% - 281px)!important;position:relative!important;height:43px!important;max-width:395px!important;min-width:25px!important;padding:0!important}#dm .p_hfcontainer div.u_1838486343{float:none!important;top:0!important;max-width:100%!important;left:0!important;width:calc(100% - 0px)!important;position:relative!important;min-width:25px!important;height:auto!important;display:block!important;padding:2px 0!important;margin:0 0 8px!important}a.u_1947957819{display:block!important;left:0!important;width:184.59px!important;position:relative!important;height:42.98px!important;max-width:100%!important;min-width:0!important;padding:0!important}#dm .p_hfcontainer div.u_1617663117,#dm .p_hfcontainer nav.u_1446878590{width:calc(100% - 0px)!important;min-width:25px!important;float:none!important;top:0!important;left:0!important;position:relative!important}#dm .p_hfcontainer div.u_1617663117{max-width:100%!important;text-align:left!important;height:auto!important;padding:2px 0!important;margin:-9px auto 8px!important}#dm .p_hfcontainer nav.u_1446878590{height:auto!important;max-width:958.75px!important;justify-content:center!important;align-items:stretch!important;text-align:start!important;padding:6px 0 6.8px!important;margin:6px auto 0!important}#dm .p_hfcontainer div.u_1459188454{width:auto!important;padding:50px 40px!important;margin:0!important}#dm .p_hfcontainer a.u_1392639020{width:306px!important;height:42px!important;margin:10px 12.81px 10px 12.8px!important;padding:0!important}#dm .p_hfcontainer a.u_1392639020 span.text{font-weight:700!important}#dm .p_hfcontainer a.u_1308523308{display:block!important;float:none!important;top:0!important;left:0!important;width:380px!important;position:relative!important;height:42.98px!important;max-width:100%!important;min-width:0!important;text-align:center!important;padding:0!important;margin:10px 0 10px auto!important}#dm .p_hfcontainer a.u_1947957819{display:block!important;float:none!important;top:0!important;left:0!important;width:calc(100% - 29px)!important;position:relative!important;height:40px!important;max-width:261.69px!important;min-width:25px!important;text-align:center!important;min-height:auto!important;padding:0!important;margin:0 0 10px 30px!important}#dm .p_hfcontainer div.u_1473653831{float:none!important;top:0!important;left:0!important;width:auto!important;position:relative!important;height:auto!important;max-width:100%!important;min-width:0!important;text-align:center!important;padding:0 40px!important;margin:0!important}@media (min-width:768px) and (max-width:1024px){.responsiveTablet [dmtemplateid=Hamburger].runtime-module-container .layout-drawer-hamburger{top:40.5px!important}.responsiveTablet [dmtemplateid=Hamburger] .site_content{margin-top:133px!important}}[dmtemplateid=Hamburger].runtime-module-container .layout-drawer-hamburger{top:40.5px!important}[dmtemplateid=Hamburger] .site_content{margin-top:133px!important}.stickyHeaderSpacer{height:233.28px!important}@media (min-width:1025px){.responsiveTablet .stickyHeaderSpacer{height:232.78px!important}}.poweredBy.poweredByHibu a,.poweredBy.poweredByHibu div{text-align:center!important;color:#666!important;text-decoration:none!important;max-width:960px!important;margin:0 auto!important}.poweredBy.poweredByHibu{background-color:#fff!important;font-size:11px!important;font-family:'Open Sans',Helvetica,Arial,sans-serif!important;font-weight:500!important}.poweredBy.poweredByHibu .poweredLine1{padding:15px 0 10px}.poweredBy.poweredByHibu .poweredLine2{padding-bottom:15px}.font-size-22{font-size:22px!important}.font-size-14,.size-14,.size-14>font{font-size:14px!important}.font-size-30,.size-30{font-size:30px!important}#\31 232903444,#\31 304486102,#\31 356947396,#\31 699381764,#\31 735562209,#hamburger-drawer{order:0}#\31 304486102,#\31 735562209{flex-direction:row}#\31 009264799,#\31 030165537,#\31 121288307,#\31 382156933,#\31 446878590,#\31 494976461,#\31 618005341,#\31 673665127,#\31 902082611,#\31 966713400,#\31 992805756{order:0;flex-direction:row} #dm .dmPhotoGallery.newPhotoGallery .dmPhotoGalleryHolder:not(.photo-gallery-done) {display: none;} @media (max-width:767px){ [data-hidden-on-mobile] {display:none!important}}
+    .dmDesktopBody [data-anim-desktop]:not([data-anim-desktop='none']) {
+      visibility: hidden;
+    }
+
+    
+</style>
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Julius Sans One Fallback";
+  src: local('Arial');
+  ascent-override: 67.5414%;
+  descent-override: 17.8441%;
+  size-adjust: 127.7735%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Helvetica Fallback";
+  src: local('Arial');
+  ascent-override: 77.002%;
+  descent-override: 22.998%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "UnifrakturMaguntia Fallback";
+  src: local('Arial');
+  ascent-override: 89.7899%;
+  descent-override: 28.6635%;
+  size-adjust: 87.3894%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Gudea Fallback";
+  src: local('Arial');
+  ascent-override: 100.9522%;
+  descent-override: 27.4191%;
+  size-adjust: 96.2832%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Petit Formal Script Fallback";
+  src: local('Arial');
+  ascent-override: 81.9524%;
+  descent-override: 21.2439%;
+  size-adjust: 121.1283%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Parisienne Fallback";
+  src: local('Arial');
+  ascent-override: 115.2697%;
+  descent-override: 56.2516%;
+  size-adjust: 79.4248%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lato Fallback";
+  src: local('Arial');
+  ascent-override: 101.3181%;
+  descent-override: 21.865%;
+  size-adjust: 97.4159%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lora Fallback";
+  src: local('Arial');
+  ascent-override: 95.2907%;
+  descent-override: 25.9539%;
+  size-adjust: 105.5717%;
+  line-gap-override: 0%;
+ }
+</style>
+<!-- End render the required css and JS in the head section -->
+<link href="https://www.sherwoodforestfaire.com/feed/rss2" rel="alternate" type="application/rss+xml"/>
+<link href="https://www.sherwoodforestfaire.com/feed/atom" rel="alternate" type="application/atom+xml"/>
+<meta content="website" property="og:type"/>
+<meta content="https://www.sherwoodforestfaire.com/about" property="og:url"/>
+<title>
+    
+    Sherwood Forest Faire | Austin, Tx | Renaissance | Medieval | Faire | Festival
+  
+  </title>
+<meta content="Sherwood Forest Faire entertains 100,000 patrons on weekends in March and April each year. We offer over 150 shows per day including full-contact jousting, falconry, comedy, and 10 live bands plus 170 artisans making crafts such as boots, hats, mugs, jewelry, clothing, art, swords, and more." name="description"/>
+<meta content="tfx6x3y74plq8jyeeiudc3ceflnc0k" name="facebook-domain-verification"/>
+<!-- Google Tag Manager --> <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M3XZ663');
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- End Google Tag Manager --> <script>
+
+
+
+
+
+
+
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-134344972-4');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- Global site tag (gtag.js) - Google Ads: 977626100 --> <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-977626100">
+</script>
+<script>
+
+
+
+
+
+
+
+
+
+ 
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); 
+gtag('config', 'AW-977626100'); 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- Hotjar Tracking Code for www.sherwoodforestfaire.com --> <script>
+
+
+
+
+
+
+
+
+
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1195137,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script><script async="" src="js/hotjar-1195137.js"></script>
+<!-- Hibu Code --> <meta content="telephone=no" name="format-detection"/>
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/977626100/?random=1749790083949&amp;cv=11&amp;fst=1749790083949&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/977626100/?random=1749790083991&amp;cv=11&amp;fst=1749790083991&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660z879714712za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/977626100/?random=1749790083994&amp;cv=11&amp;fst=1749790083994&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660z879714712za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;_tu=Cg&amp;rfmt=3&amp;fmt=4" type="text/javascript"></script><script src="js/skrollr.min.js"></script><script async="" charset="utf-8" src="js/modules.fd66acf0c05ce191d967.js"></script><link href="css/signup-form-widget.css" media="all" rel="stylesheet" type="text/css"/><script async="" src="js/mapProvider.mapbox.js" type="text/javascript"></script><script async="" id="facebook-jssdk" src="js/sdk.js"></script><script src="js/mapProvider.mapboxgl.js"></script><script src="js/mapbox-gl.js"></script><link href="css/mapbox-gl.css" id="mapbox-gl-css" rel="stylesheet" type="text/css"/><style id="mapbox-internal-css">.marker.mapboxgl-marker { margin-top: -20px; width: 25px; height: 41px; z-index: 100; display: block; background-image: url('/editor/ed/vendor/leaflet/images/marker-icon.png'); }</style><style data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget" type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0px;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:lucida grande,tahoma,verdana,arial,sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:400;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{0%{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+
+.fb_dialog{background:#525252b3;position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:700;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif) #fff no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:#0006;inset:0;min-height:100%;position:absolute;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba),to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:#fff 0 1px 1px -1px inset;color:#fff;font:700 14px Helvetica,sans-serif;text-overflow:ellipsis;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2),to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:700 12px Helvetica,sans-serif;margin:2px -12px;padding:2px 6px 3px;text-shadow:rgba(0,30,84,.296875) 0px -1px 0px}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:700;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4A4A4A;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4A4A4A;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://connect.facebook.net/rsrc.php/v4/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0)}to{transform:rotate(360deg)}}
+
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+</style><link href="css/compliance.css" rel="stylesheet" type="text/css"/><link href="css/fullCSS.bundle.css" rel="stylesheet" type="text/css"/><style>
+      cmp-toolbar {
+        --color_1: #666;
+        --color_2: #FFFFFF;
+      }</style><style>
+      .audioeye-skip-link {
+        display: inline-block !important;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        z-index: 50000 !important;
+      }
+      .audioeye-skip-link:focus, .audioeye-skip-link:active {
+        left: 0;
+        width: auto;
+        height: auto;
+        background: #fff;
+        color: #000;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.5;
+        margin-bottom: 8px;
+        padding: 5px;
+        border: 3px solid #000;
+        transition: none;
+      }
+    </style></head><body class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet d1SiteBody dmBodyNoIscroll ae-lang-en ae-device-desktop ae-launcher" data-page-alias="about" id="dmRoot" style="padding:0;margin:0;"><div aria-live="polite" class="ae-blurb-noaudio" data-nosnippet="" id="ae_enabled_site" role="status" style="display: none"><div><p data-modulename="launcher">This website is AudioEye enabled and is being optimized for accessibility. To open the AudioEye Toolbar, press "shift + =". Some assistive technologies may require the use of a passthrough function before this keystroke. For more information, activate the button labeled “Explore your accessibility options”.</p></div></div><a class="audioeye-skip-link" href="#dm_content">Skip To Main Content</a><iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=7035641312484.175?" style="display:none" width="1"></iframe>
+<noscript>
+</noscript>
+<iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" style="display:none" width="1">
+</iframe>
+<!-- End of Floodlight Tag: Please do not remove --> <!-- Hibu Code --> <!-- Facebook Pixel Code --> <script>
+
+
+
+
+
+
+
+
+
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '230239877657347');
+  fbq('track', 'PageView');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<noscript>
+</noscript>
+<img height="1" src="https://www.facebook.com/tr?id=230239877657347&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/>
+<!-- End Facebook Pixel Code --> <script>
+
+
+
+
+
+
+
+
+
+  window.addEventListener('load', function() {
+    jQuery('#1812097572').click(function() {
+      gtag('event', 'click', {'event_category': 'button','event_label': 'purchase'});
+    })
+  })
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- Begin Constant Contact Active Forms --> <script>
+
+
+
+
+
+
+
+
+
+ var _ctct_m = "a31ae6fe3a52b11856680709476b156d"; 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<script async="" defer="" id="signupScript" src="js/signup-form-widget.min.js">
+</script>
+<!-- End Constant Contact Active Forms --> <!-- Google Tag Manager --> <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KFBC4KH');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- End Google Tag Manager --> <!--
+Start of Floodlight Tag: Please do not remove
+Activity name of this tag: Sherwood Forest Faire 2020
+URL of the webpage where the tag is expected to be placed: https://www.sherwoodforestfaire.com?utm_source=cd&utm_medium=banner&utm_campaign=clever%20digital
+This tag must be placed between the <body> and <script type="text/javascript" async="async" src="/__zenedge/assets/f.js?v=1674207422"></script><script>(function () { var v = 1749790053 * 3.1415926535898; v = Math.floor(v); document.cookie = "__zjc4062="+v+"; expires=Fri, 13 Jun 2025 04:50:03 UTC; path=/"; })()</script></body> tags, as close as possible to the opening tag.
+Creation Date: 01/31/2020
+--> <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script><iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=3474881543403.238?" style="display:none" width="1"></iframe>
+<noscript>
+</noscript>
+<iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" style="display:none" width="1">
+</iframe>
+<script>
+
+
+
+
+
+
+
+
+
+!function (w, d, t) {
+w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=https://analytics.tiktok.com/i18n/pixel/events.js;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+ttq.load('CC8L8AJC77UE82V3DJ00');
+ttq.page();
+}(window, document, 'ttq');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+<!-- End of Floodlight Tag: Please do not remove -->
+<meta content="summary" name="twitter:card"/>
+<meta content="Sherwood Forest Faire | Austin, Tx | Renaissance | Medieval | Faire | Festival" name="twitter:title"/>
+<meta content="Sherwood Forest Faire entertains 100,000 patrons on weekends in March and April each year. We offer over 150 shows per day including full-contact jousting, falconry, comedy, and 10 live bands plus 170 artisans making crafts such as boots, hats, mugs, jewelry, clothing, art, swords, and more." name="twitter:description"/>
+<meta content="Sherwood Forest Faire entertains 100,000 patrons on weekends in March and April each year. We offer over 150 shows per day including full-contact jousting, falconry, comedy, and 10 live bands plus 170 artisans making crafts such as boots, hats, mugs, jewelry, clothing, art, swords, and more." property="og:description"/>
+<meta content="Sherwood Forest Faire | Austin, Tx | Renaissance | Medieval | Faire | Festival" property="og:title"/>
+<!-- SYS- VVNfSElCVV9QUk9EVUNUSU9O -->
+<script type="text/javascript">(function(){ if (typeof(___zen) === "undefined") {setTimeout(arguments.callee, 50); return; }___zen.hic("__ZEHIC4002", 1749790083, 1, 0, 60); })()</script><script async="async" src="js/hic.js" type="text/javascript"></script>
+<!-- ========= Site Content ========= -->
+<div class="dmwr" id="dm">
+<div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+<div dmwrapped="true" id="1582363842"> <div class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader dmPageBody d-page-1683814473 inputs-css-clean dmFreeHeader" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex" data-page-class="1683814473" data-responsive-name="ResponsiveDesktopTopTabletHamburger" data-soch="true" dmtemplateid="Hamburger" id="dm-outer-wrapper"> <div class="dmOuter" id="dmStyle_outerContainer"> <div class="dmInner" id="dmStyle_innerContainer"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div aria-hidden="true" class="hamburger-drawer layout-drawer" data-origin="side" id="hamburger-drawer" inert="" layout="e9d510f4eb904e939c2be8efaf777e6e===header"> <div class="u_1785133682 dmRespRow" id="1785133682" style="text-align: center;"> <div class="dmRespColsWrapper" id="1735562209"> <div class="u_1090160641 dmRespCol small-12 medium-12 large-12 empty-column" id="1090160641"></div>
+</div>
+</div>
+<div class="u_1369553724 dmRespRow middleDrawerRow" id="1369553724" style="text-align: center;"> <div class="dmRespColsWrapper" id="1494976461"> <div class="dmRespCol small-12 u_1368675851 medium-12 large-12" id="1368675851"> <nav adwords="" alt="" class="u_1030165537 effect-bottom main-navigation unifiednav dmLinksMenu" data-element-type="onelinksmenu" data-logo-src="" data-nav-structure="VERTICAL" data-show-vertical-sub-items="HIDE" dmle_extension="onelinksmenu" icon="true" id="1030165537" layout-main="vertical_nav_layout_2" layout-sub="" navigation-id="unifiedNav" role="navigation" surround="true" wr="true"> <ul class="unifiednav__container" data-auto="navigation-pages" role="menubar"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_00" data-target-page-alias="" href="/" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Home
+        ">Home<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010123385 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Faire
+        ">Faire<span class="icon icon-angle-down"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="0" role="menu"> <li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101529 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Entertainment
+          ">Entertainment<span class="icon icon-angle-right"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="1" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010183464" data-target-page-alias="" href="/action-shows" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Action Shows
+            ">Action Shows<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101682857" data-target-page-alias="" href="/music-shows" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Music Shows
+            ">Music Shows<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101417904" data-target-page-alias="" href="/performance-schedule" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Performance Schedule
+            ">Performance Schedule<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_010101292556" data-target-page-alias="" href="https://schedule.sherwoodforestfaire.com/?utm_medium=link" tabindex="-1" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Sherwood Scheduler app
+            ">Sherwood Scheduler app<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101213162" data-target-page-alias="" href="/forest-quest" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Forest Quest
+            ">Forest Quest<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101538774" data-target-page-alias="" href="/hawk-walk" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Hawk Walk
+            ">Hawk Walk<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101672476" data-target-page-alias="" href="/petrified-dragon-escape-room" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Petrified Dragon Escape Room
+            ">Petrified Dragon Escape Room<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101458667" data-target-page-alias="" href="/rehearsal-dinner" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             King Philip’s Wedding Rehearsal Dinner
+            ">King Philip’s Wedding Rehearsal Dinner<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101688303 unifiednav__item_has-sub-nav" data-target-page-alias="" href="/shoppes" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Shoppes
+          ">Shoppes<span class="icon icon-angle-right"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="1" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010139674" data-target-page-alias="" href="/food-beverage" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Food &amp; Beverage
+            ">Food &amp; Beverage<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101668102" data-target-page-alias="" href="/rules-of-the-realm" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Rules of the Realm
+          ">Rules of the Realm<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101464341" data-target-page-alias="" href="/special-offers" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Special Offers
+          ">Special Offers<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101309665" data-target-page-alias="" href="/fof" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Friends of Faire &amp; Season Passes
+          ">Friends of Faire &amp; Season Passes<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101108405" data-target-page-alias="" href="/sherwood-castle-accommodations" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Castle Accommodations
+          ">Castle Accommodations<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101869253" data-target-page-alias="" href="/camping" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Camping
+          ">Camping<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101953090" data-target-page-alias="" href="/local-hotels" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Local Hotels
+          ">Local Hotels<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101401999" data-target-page-alias="" href="/village-map" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Maps
+          ">Maps<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101289166" data-target-page-alias="" href="/participation" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Participation
+          ">Participation<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101919291" data-target-page-alias="" href="/swff-lost-and-found-items" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           SWFF Lost and Found Items
+          ">SWFF Lost and Found Items<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101554472" data-target-page-alias="" href="/celtic-music-festival" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Celtic Yuletide Festival
+        ">Celtic Yuletide Festival<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_010101194184" data-target-page-alias="" href="https://www.hynafol.com" tabindex="0" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Hynafol
+        ">Hynafol<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101608331" data-target-page-alias="" href="/weddings" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Weddings
+        ">Weddings<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101619999 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         More Events
+        ">More Events<span class="icon icon-angle-down"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="0" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_01010163749" data-target-page-alias="" href="http://sherwoodforestsummercamp.com" tabindex="-1" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Summer Camp (Jun &amp; Jul)
+          ">Summer Camp (Jun &amp; Jul)<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101683557" data-target-page-alias="" href="/other-gatherings-work-weekends" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Off Season Gatherings
+          ">Off Season Gatherings<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010198084" data-target-page-alias="" href="/contact" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Contact Us
+        ">Contact Us<span class="icon icon-angle-down" data-hidden-on-desktop="" data-hidden-on-mobile="" data-hidden-on-tablet=""></span>
+</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="dmRespRow u_1405630916" id="1405630916" style="text-align: center;"> <div class="dmRespColsWrapper" id="1992805756"> <div class="u_1507892018 dmRespCol small-12 medium-12 large-12" id="1507892018"> <div adwords="" class="u_1297285058 align-center text-align-center dmSocialHub gapSpacing" data-element-type="social_hub" dmle_extension="social_hub" icon="true" id="1297285058" networks="" surround="true" wr="true"> <div class="socialHubWrapper"> <div class="socialHubInnerDiv"> <a aria-describedby="audioeye_new_window_message" aria-label="facebook" dm_dont_rewrite_url="true" href="https://facebook.com/sherwoodforestfaire" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Facebook')" target="_blank"> <span aria-hidden="true" class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style8" data-hover-effect=""></span>
+</a>
+<a aria-describedby="audioeye_new_window_message" aria-label="twitter" dm_dont_rewrite_url="true" href="https://twitter.com/sherwoodfaire" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Twitter')" target="_blank"> <span aria-hidden="true" class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style8" data-hover-effect=""></span>
+</a>
+<a aria-describedby="audioeye_new_window_message" aria-label="instagram" dm_dont_rewrite_url="true" href="https://instagram.com/sherwoodforestfaire/" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Instagram')" target="_blank"> <span aria-hidden="true" class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style8" data-hover-effect=""></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="layout-drawer-overlay" id="layout-drawer-overlay"></div>
+</div>
+<div class="site_content"> <div class="showOnMedium hamburger-header-container p_hfcontainer" id="hamburger-header-container"> <div class="hamburger-header p_hfcontainer" id="hamburger-header" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1905041340 dmRespRow" id="1905041340" style="text-align: center;"> <div class="dmRespColsWrapper" id="1121288307"> <div class="dmRespCol small-12 u_1699381764 medium-4 large-4 empty-column content-removed" id="1699381764"></div>
+<div class="u_1356947396 dmRespCol small-12 large-4 medium-4" id="1356947396"> <div class="u_1152129910 imageWidget align-center" data-element-type="image" data-widget-type="image" editablewidget="true" id="1152129910"> <a file="false" href="/" id="1558321551"><img alt="Sherwood Forest Faire - logo" class="" data-dm-image-path="https://cdn.websites.hibu.com/cc7e03c69cfb4af5a037612fc246ca8a/dms3rep/multi/new_logo.png" height="0.0" id="1921360951" onerror="handleImageLoadError(this)" src="img/new_logo-1920w.png" width="0.0"/></a>
+</div>
+</div>
+<div class="u_1232903444 dmRespCol small-12 large-4 medium-4" id="1232903444"> <a aria-describedby="audioeye_new_window_message" class="u_1947957819 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" data-buttonstyle="ROUND_SIDES" data-display-type="block" data-element-type="dButtonLinkId" file="false" href="http://sherwoodforestfaire.com/tickets" id="1947957819" target="_blank"> <span class="iconBg" id="1537370176"> <span class="icon hasFontIcon icon-star" id="1634079781"></span>
+</span>
+<span class="text" id="1824334314">Tickets Available Now!</span>
+</a>
+<div class="u_1617663117 dmNewParagraph" id="1617663117" style="display: block;"><div style="text-align: right;"><span class="lh-1 font-size-22" style=""><font style=""><b style=""><span style="font-weight: 700;"><a aria-describedby="audioeye_new_window_message" href="tel:512-222-6680 " runtime_url="tel:512-222-6680 " style="text-decoration: none; color: rgb(255, 255, 255);" target="_blank">512-222-6680</a></span></b></font></span></div><div style="text-align: right;"><span class="size-14 lh-1"><font>Located 35 Miles East of Austin, TX</font></span></div></div></div>
+</div>
+</div>
+</div>
+</div>
+<button aria-label="menu" class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger"> <span class="hamburger__slice"></span>
+<span class="hamburger__slice"></span>
+<span class="hamburger__slice"></span>
+</button>
+<div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div class="dmHeader p_hfcontainer u_hcontainer" freeheader="true" id="hcontainer"> <div class="dmHeaderResp dmHeaderStack noSwitch" dm:templateorder="85" id="1709005236"> <div class="u_1894669139 dmRespRow hide-for-large" id="1894669139"> <div class="dmRespColsWrapper" id="1009264799"> <div class="dmRespCol large-12 medium-12 small-12" id="1169728374"> <div class="dmCustomHtml u_1606551395" data-element-type="html" id="1606551395"> <script type="text/javascript">
+
+
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+            </script><iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=4687088258015.697?" style="display:none" width="1"></iframe>
+<noscript> <iframe frameborder="0" height="1" src="https://8408575.fls.doubleclick.net/activityi;src=8408575;type=invmedia;cat=sherw00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" style="display:none" width="1"></iframe>
+</noscript>
+</div>
+</div>
+</div>
+</div>
+<div class="u_1571063569 dmRespRow dmHeaderContent freeHeaderRow1" id="1571063569"> <div class="dmRespColsWrapper clearfix" id="1618005341"> <div class="u_1188728890 dmRespCol small-12 medium-6 large-6" id="1188728890"> <div class="u_1542733529 imageWidget" data-element-type="image" data-widget-type="image" editablewidget="true" id="1542733529"> <a href="/" id="1056278165"><img alt="Sherwood Forest Faire - logo" class="u_1846725058" data-dm-image-path="https://cdn.websites.hibu.com/cc7e03c69cfb4af5a037612fc246ca8a/dms3rep/multi/new_logo.png" dm_changed="true" height="113.015625" id="1846725058" onerror="handleImageLoadError(this)" src="img/new_logo-526w.png" width="438.578125"/></a>
+</div>
+<div class="dmCustomHtml" data-element-type="html" id="1071497280"><!-- Google Tag Manager --> <script>
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M3XZ663');                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+            </script>
+<!-- End Google Tag Manager --></div>
+</div>
+<div class="u_1780181932 dmRespCol small-12 medium-6 large-6" id="1780181932"> <span id="1520082955"></span>
+<a class="u_1308523308 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" data-buttonstyle="ROUND_SIDES" data-display-type="block" data-element-type="dButtonLinkId" file="false" href="http://sherwoodforestfaire.com/tickets" id="1308523308"> <span class="iconBg" id="1196200249"> <span class="icon hasFontIcon icon-star" id="1016493182"></span>
+</span>
+<span class="text" id="1423972249">Tickets Available Soon!</span>
+</a>
+<div class="u_1838486343 dmNewParagraph" data-version="5" id="1838486343" style="line-height: initial; text-align: right;"><p class="text-align-right"><span style="display: initial;">Located in McDade, TX</span></p><p class="text-align-right"><span style="display: initial;">35 Miles East of Austin</span></p><p class="text-align-right size-30"><a aria-describedby="audioeye_new_window_message" class="font-size-30" href="tel:512-222-6680 " style="font-weight: 700; color: rgb(255, 255, 255); text-decoration: none; display: initial;" target="_blank">512-222-6680</a></p></div> <div class="dmCustomHtml" data-element-type="html" id="1071907769"> <script>
+
+
+!function (w, d, t) {
+w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++
+)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=https://analytics.tiktok.com/i18n/pixel/events.js;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+ttq.load('CC8L8AJC77UE82V3DJ00');
+ttq.page();
+}(window, document, 'ttq');
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+            </script>
+</div>
+</div>
+</div>
+</div>
+<div class="u_1473653831 dmRespRow" id="1473653831" style="text-align: center;"> <div class="dmRespColsWrapper" id="1902082611"> <div class="dmRespCol small-12 medium-12 large-12" id="1386591710"> <nav adwords="" class="u_1446878590 effect-text-color main-navigation unifiednav dmLinksMenu" data-element-type="onelinksmenu" data-show-vertical-sub-items="HOVER" dmle_extension="onelinksmenu" icon="true" id="1446878590" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_2" navigation-id="unifiedNav" role="navigation" surround="true" wr="true"> <ul class="unifiednav__container" data-auto="navigation-pages" role="menubar"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_00" data-target-page-alias="" href="/" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Home
+        ">Home<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010123385 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Faire
+        ">Faire<span class="icon icon-angle-down"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="0" role="menu"> <li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101529 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Entertainment
+          ">Entertainment<span class="icon icon-angle-right"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="1" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010183464" data-target-page-alias="" href="/action-shows" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Action Shows
+            ">Action Shows<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101682857" data-target-page-alias="" href="/music-shows" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Music Shows
+            ">Music Shows<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101417904" data-target-page-alias="" href="/performance-schedule" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Performance Schedule
+            ">Performance Schedule<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_010101292556" data-target-page-alias="" href="https://schedule.sherwoodforestfaire.com/?utm_medium=link" tabindex="-1" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Sherwood Scheduler app
+            ">Sherwood Scheduler app<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101213162" data-target-page-alias="" href="/forest-quest" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Forest Quest
+            ">Forest Quest<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101538774" data-target-page-alias="" href="/hawk-walk" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Hawk Walk
+            ">Hawk Walk<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101672476" data-target-page-alias="" href="/petrified-dragon-escape-room" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Petrified Dragon Escape Room
+            ">Petrified Dragon Escape Room<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101458667" data-target-page-alias="" href="/rehearsal-dinner" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             King Philip’s Wedding Rehearsal Dinner
+            ">King Philip’s Wedding Rehearsal Dinner<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101688303 unifiednav__item_has-sub-nav" data-target-page-alias="" href="/shoppes" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Shoppes
+          ">Shoppes<span class="icon icon-angle-right"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="1" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="2" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010139674" data-target-page-alias="" href="/food-beverage" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+             Food &amp; Beverage
+            ">Food &amp; Beverage<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101668102" data-target-page-alias="" href="/rules-of-the-realm" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Rules of the Realm
+          ">Rules of the Realm<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101464341" data-target-page-alias="" href="/special-offers" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Special Offers
+          ">Special Offers<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101309665" data-target-page-alias="" href="/fof" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Friends of Faire &amp; Season Passes
+          ">Friends of Faire &amp; Season Passes<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101108405" data-target-page-alias="" href="/sherwood-castle-accommodations" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Castle Accommodations
+          ">Castle Accommodations<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101869253" data-target-page-alias="" href="/camping" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Camping
+          ">Camping<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101953090" data-target-page-alias="" href="/local-hotels" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Local Hotels
+          ">Local Hotels<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101401999" data-target-page-alias="" href="/village-map" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Maps
+          ">Maps<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101289166" data-target-page-alias="" href="/participation" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Participation
+          ">Participation<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101919291" data-target-page-alias="" href="/swff-lost-and-found-items" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           SWFF Lost and Found Items
+          ">SWFF Lost and Found Items<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101554472" data-target-page-alias="" href="/celtic-music-festival" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Celtic Yuletide Festival
+        ">Celtic Yuletide Festival<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_010101194184" data-target-page-alias="" href="https://www.hynafol.com" tabindex="0" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Hynafol
+        ">Hynafol<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101608331" data-target-page-alias="" href="/weddings" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Weddings
+        ">Weddings<span class="icon icon-angle-down"></span>
+</span>
+</a>
+</li>
+<li aria-haspopup="true" class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101619999 unifiednav__item_has-sub-nav" data-target-page-alias="" href="#" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         More Events
+        ">More Events<span class="icon icon-angle-down"></span>
+</span>
+</a>
+<ul aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-auto="sub-pages" data-depth="0" role="menu"> <li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a aria-describedby="audioeye_new_window_message" class="unifiednav__item dmUDNavigationItem_01010163749" data-target-page-alias="" href="http://sherwoodforestsummercamp.com" tabindex="-1" target="_blank"> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Summer Camp (Jun &amp; Jul)
+          ">Summer Camp (Jun &amp; Jul)<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="1" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_010101683557" data-target-page-alias="" href="/other-gatherings-work-weekends" tabindex="-1" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+           Off Season Gatherings
+          ">Off Season Gatherings<span class="icon icon-angle-right"></span>
+</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="unifiednav__item-wrap" data-auto="more-pages" data-depth="0" role="menuitem"> <a class="unifiednav__item dmUDNavigationItem_01010198084" data-target-page-alias="" href="/contact" tabindex="0" target=""> <span class="nav-item-text" data-auto="page-text-style" data-link-text="
+         Contact Us
+        ">Contact Us<span class="icon icon-angle-down" data-hidden-on-desktop="" data-hidden-on-mobile="" data-hidden-on-tablet=""></span>
+</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="stickyHeaderSpacer" data-new="true" id="stickyHeaderSpacer"></div>
+<div class="dmBody u_dmStyle_template_about" dmwrapped="true" id="dmFirstContainer"> <div class="allWrapper" id="allWrapper"><!-- navigation placeholders --> <div class="dmContent" id="dm_content" role="main" tabindex="-1"> <div class="dmAboutusRespTmpl mainBorder" dm:templateorder="100" id="1683814473"> <div class="innerPageTmplBox dmRespRowsWrapper dmRespRowsWrapperSize1" id="1396310947" style="min-height: 87.0002px;"> <div class="dmRespRow" id="1826469239" style="text-align: center;"> <div class="dmRespColsWrapper" id="1382156933"> <div class="dmRespCol small-12 medium-12 large-12" id="1373825266"> <div class="dmNewParagraph" id="1703211908"><div style="text-align: center;"><span class="lh-1 font-size-30" style="">&lt;&lt; add <i>about</i> 
+full-page section &gt;&gt;</span></div></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sticky-widgets-container-global" id="1424661838"></div>
+<div class="dmFooterContainer"> <div class="f_hcontainer dmFooter p_hfcontainer" id="fcontainer"> <div class="dmFooterResp generalFooter" dm:templateorder="250" id="1943048428"> <div class="dmRespRow u_1336229272" id="1336229272" style="text-align: center;"> <div class="dmRespColsWrapper" id="1673665127"> <div class="dmRespCol small-12 large-4 medium-4" id="1198563018"> <div adwords="" class="u_1725189860 align-center text-align-center dmSocialHub gapSpacing" data-element-type="social_hub" dmle_extension="social_hub" icon="true" id="1725189860" networks="" surround="true" wr="true"> <div class="socialHubWrapper"> <div class="socialHubInnerDiv"> <a aria-describedby="audioeye_new_window_message" aria-label="facebook" dm_dont_rewrite_url="true" href="https://www.facebook.com/sherwoodforestfaire/" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Facebook')" target="_blank"> <span aria-hidden="true" class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style6" data-hover-effect=""></span>
+</a>
+<a aria-describedby="audioeye_new_window_message" aria-label="twitter" dm_dont_rewrite_url="true" href="https://twitter.com/sherwoodfaire?lang=en" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Twitter')" target="_blank"> <span aria-hidden="true" class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style6" data-hover-effect=""></span>
+</a>
+<a aria-describedby="audioeye_new_window_message" aria-label="instagram" dm_dont_rewrite_url="true" href="https://www.instagram.com/sherwoodforestfaire/" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Instagram')" target="_blank"> <span aria-hidden="true" class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style6" data-hover-effect=""></span>
+</a>
+<a aria-describedby="audioeye_new_window_message" aria-label="youtube" dm_dont_rewrite_url="true" href="https://www.youtube.com/channel/UC_TXWc1AoClULilqLb6TkgQ" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event('socialLink', 'click', 'Youtube')" target="_blank"> <span aria-hidden="true" class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style6" data-hover-effect=""></span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="dmRespCol large-4 medium-4 small-12" id="1157130281"> <a class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient u_1392639020" data-buttonstyle="FLAT_ROUND_ICON" data-display-type="block" data-element-type="dButtonLinkId" file="false" href="/swff-lost-and-found-items" icon-name="icon-key" id="1392639020"> <span aria-hidden="true" class="iconBg" id="1353323839"> <span class="icon hasFontIconstar hasFontIcon icon-key" id="1243314082"></span>
+</span>
+<span class="text" id="1562678156">SWFF LOST &amp; FOUND ITEMS!</span>
+</a>
+</div>
+<div class="dmRespCol small-12 large-4 medium-4" id="1912312108"> <h3 aria-level="1" class="u_1208026434 dmNewParagraph hide-for-small" data-element-type="paragraph" id="1208026434" role="heading" style="transition: opacity 1s ease-in-out;"><font style="color: rgb(255, 255, 255);"><a aria-describedby="audioeye_new_window_message" href="tel:512-222-6680 " runtime_url="tel:512-222-6680 " style="text-decoration: none; color: rgb(255, 255, 255);" target="_blank">512-222-6680</a></font></h3></div>
+</div>
+</div>
+<div class="dmRespRow u_1459188454" id="1459188454" style="text-align: center;"> <div class="dmRespColsWrapper" id="1966713400"> <div class="dmRespCol small-12 medium-4 large-4" id="1946590146"> <h3 class="u_1928573450 dmNewParagraph hide-for-small" data-element-type="paragraph" id="1928573450" style="transition: opacity 1s ease-in-out;">Our Facebook Feed</h3> <div class="widget-b2f780 dmCustomWidget" data-element-type="custom_extension" data-lazy-load="" data-title="" data-widget-config="eyJmYlBhZ2VVUkwiOiJodHRwczovL3d3dy5mYWNlYm9vay5jb20vc2hlcndvb2Rmb3Jlc3RmYWlyZS8iLCJoaWRlQ3RhIjp0cnVlLCJzaG93RmFjZXBpbGUiOnRydWUsInRpbWVsaW5lVGFiIjp0cnVlLCJldmVudHNUYWIiOnRydWUsIm1lc3NhZ2VzVGFiIjp0cnVlLCJmYWxsQmFja1RleHQiOiJIaWJ1IEZCIFBhZ2UiLCJoaWRlQ292ZXIiOmZhbHNlLCJzbWFsbEhlYWRlciI6ZmFsc2V9" data-widget-id="b2f78025607d46d19174723879f60966" data-widget-initialized="" data-widget-version="6" dmle_extension="custom_extension" icon="false" id="1192038157" surround="false" wr="false"> <div class="fb-page fb_iframe_widget" data-adapt-container-width="true" data-height="350" data-hide-cover="false" data-hide-cta="true" data-href="https://www.facebook.com/sherwoodforestfaire/" data-show-facepile="true" data-small-header="false" data-tabs="timeline,events,messages" data-width="500" fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1822295708016537&amp;container_width=306&amp;height=350&amp;hide_cover=false&amp;hide_cta=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Fsherwoodforestfaire%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline%2Cevents%2Cmessages&amp;width=500" fb-xfbml-state="rendered"><span style="vertical-align: bottom; width: 306px; height: 350px;"><iframe allow="encrypted-media" allowfullscreen="true" allowtransparency="true" class="" data-testid="fb:page Facebook Social Plugin" frameborder="0" height="350px" name="f4ffaee4e3e34f60c" scrolling="no" src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=1822295708016537&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df06220814b8fb9b7e%26domain%3Dwww.sherwoodforestfaire.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.sherwoodforestfaire.com%252Ff1f2af1bf752999a8%26relation%3Dparent.parent&amp;container_width=306&amp;height=350&amp;hide_cover=false&amp;hide_cta=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Fsherwoodforestfaire%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline%2Cevents%2Cmessages&amp;width=500" style="border: none; visibility: visible; width: 306px; height: 350px;" title="fb:page Facebook Social Plugin" width="500px"></iframe></span></div>
+</div>
+</div>
+<div class="dmRespCol small-12 medium-4 large-4" id="1822641561"> <div class="u_1213342824 dmNewParagraph hide-for-small" data-element-type="paragraph" data-version="5" id="1213342824" style="transition: opacity 1s ease-in-out;"> <h3><span style="display: initial;">Just 35 Miles East of Austin</span></h3>
+</div> <div addresstodisplay="1883 Old Highway 20, McDade, TX 78650, United States" adwords="" city="" class="u_1656197665 default dmDefaultGradient align-center hide-for-small inlineMap" country="US" country_full="United States" data-address="1883 Old Highway 20, McDade, TX 78650, United States" data-color-scheme="" data-display-type="block" data-element-type="mapextension" data-height="" data-lang="en" data-lat="30.22956" data-layout="layout4" data-lng="-97.16543" data-mapurl="" data-msid="" data-popup-description="" data-popup-description-visible="false" data-popup-display="" data-popup-display-desktop="" data-popup-display-mobile="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-type="inlineMap" data-zoom="" description="Find Us" dmle_extension="mapextension" geocompleteaddress="1883 Old Highway 20, McDade, TX 78650, United States" icon="true" icon-name="icon-map-marker" id="1656197665" lat="30.22956" layout="layout4" lon="-97.16543" modedesktop="map" modemobile="map" modetablet="map" provider="mapbox" state="" street="" surround="true" wr="true" zip="" zoom=""> <div class="mapContainer mapboxgl-map" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"><div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas aria-label="Map" class="mapboxgl-canvas" height="295" style="position: absolute; width: 306px; height: 295px;" tabindex="0" width="306"></canvas><div class="marker map-marker mapboxgl-marker mapboxgl-marker-anchor-center" style="transform: translate(-50%, -50%) translate(153px, 148px);"></div></div><div class="mapboxgl-control-container"><div class="mapboxgl-ctrl-top-left"><div class="mapboxgl-ctrl mapboxgl-ctrl-group"><button aria-label="Zoom in" class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-in" title="Zoom in" type="button"></button><button aria-label="Zoom out" class="mapboxgl-ctrl-icon mapboxgl-ctrl-zoom-out" title="Zoom out" type="button"></button><button aria-label="Reset bearing to north" class="mapboxgl-ctrl-icon mapboxgl-ctrl-compass" title="Reset bearing to north" type="button"><span class="mapboxgl-ctrl-compass-arrow" style="transform: rotate(0deg);"></span></button></div></div><div class="mapboxgl-ctrl-top-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-group"><button aria-label="Toggle fullscreen" class="mapboxgl-ctrl-icon mapboxgl-ctrl-fullscreen" type="button"></button></div><div class="mapboxgl-ctrl mapboxgl-ctrl-group"><button class="switcher map-switcher"></button></div></div><div class="mapboxgl-ctrl-bottom-left"><div class="mapboxgl-ctrl" style="display: block;"><a aria-describedby="audioeye_new_window_message" aria-label="Mapbox logo" class="mapboxgl-ctrl-logo" href="https://www.mapbox.com/" rel="noopener" target="_blank"></a></div></div><div class="mapboxgl-ctrl-bottom-right"><div class="mapboxgl-ctrl mapboxgl-ctrl-attrib mapboxgl-compact"><div class="mapboxgl-ctrl-attrib-inner"><a aria-describedby="audioeye_new_window_message" aria-label="Mapbox" href="https://www.mapbox.com/about/maps/" target="_blank" title="Mapbox">© Mapbox</a> <a aria-label="OpenStreetMap" href="https://www.openstreetmap.org/copyright/" target="_blank" title="OpenStreetMap">© OpenStreetMap</a> <a aria-describedby="audioeye_new_window_message" aria-label="Improve this map" class="mapbox-improve-map" href="https://www.mapbox.com/feedback/?owner=dannyb123&amp;id=cj1oxf9mh006e2rmrfgo9cmuy&amp;access_token=pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw" target="_blank">Improve this map</a></div></div></div></div></div>
+</div>
+<a addresstodisplay="1883 Old Highway 20, McDade, TX 78650, United States" adwords="" city="" class="u_1708161320 default dmDefaultGradient align-center dmMap dmWidget dmNoMark dmWwr" contenteditable="false" country="US" country_full="United States" data-display-type="block" data-element-type="mapextension" data-popup-description="" data-popup-description-visible="false" data-popup-display-desktop="" data-popup-display-mobile="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" description="Get Directions" dmle_extension="mapextension" geocompleteaddress="1883 Old Highway 20, McDade, TX 78650, United States" href="https://maps.google.com/maps?q=1883+Old+Highway+20%2C+McDade%2C+TX+78650%2C+United+States&amp;sll=30.22956,-97.16543" icon="true" icon-name="icon-map-marker" id="1708161320" lat="30.22956" lon="-97.16543" modedesktop="" modemobile="button" modetablet="" onclick=";return dm_gaq_push_event('ClickToMap', 'Map',null,'cc7e03c69cfb4af5a037612fc246ca8a', this,{hitCallBack:true});" provider="mapbox" state="" street="" surround="true" wr="true" zip="" zoom=""> <span aria-hidden="true" class="iconBg"> <span class="icon hasFontIcon icon-map-marker"></span>
+</span>
+<span class="text">Get Directions</span>
+</a>
+</div>
+<div class="u_1546841961 dmRespCol small-12 medium-4 large-4" id="1546841961"> <h3 class="u_1846174877 dmNewParagraph hide-for-small" data-element-type="paragraph" id="1846174877" style="transition: opacity 1s ease-in-out;"><div>Contact Us</div></h3> <div class="u_1129942752 dmBlockElement" id="1129942752" style="display: block;"> <div class="dmDefaulDivContent font-size-NaN m-font-size-NaN" id="1198912267" style=""> <div style="">Po Box 339</div><div style="">Round Rock, TX 78680</div><div style="">Phone: <font style=""><span style=""><a aria-describedby="audioeye_new_window_message" href="tel:512-222-6680 " runtime_url="tel:512-222-6680 " style="text-decoration: none; color: rgb(255, 255, 255);" target="_blank">512-222-6680</a></span></font></div><div style=""><a aria-describedby="audioeye_new_window_message" href="mailto:info@sherwoodforestfaire.com" runtime_url="mailto:info@sherwoodforestfaire.com" style="background-color: rgba(0, 0, 0, 0);" target="_blank">info@sherwoodforestfaire.com</a><br/></div></div>
+</div>
+<div class="u_1630937774 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1630937774" style="transition:opacity 1s ease-in-out 0s;line-height:initial;"> <div class="m-text-align-center"><div style=""><span class="font-size-14 lh-1" style=""> <span class="font-size-14" style="">Due to our rural location, vehicle- and phone-based GPS can be inaccurate. Please see our</span>
+<a href="/contact" runtime_url="/contact">Contact Us page</a>
+<span class="font-size-14" style="">for clear directions.</span>
+</span></div></div>
+</div> <div class="u_1329429662 graphicWidget" data-element-type="graphic" data-widget-type="graphic" id="1329429662"> <svg alt="Visa" class="svg u_1211382317" data-icon-name="fa-cc-visa" id="1211382317" viewbox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"> <path d="M1975 990h-138q14-37 66-179l3-9q4-10 10-26t9-26l12 55zM531 925l-58-295q-11-54-75-54h-268l-2 13q311 79 403 336zM710 576l-162 438-17-89q-26-70-85-129.5t-131-88.5l135 510h175l261-641h-176zM849 1218h166l104-642h-166zM1617 592q-69-27-149-27-123 0-201 59t-79 153q-1 102 145 174 48 23 67 41t19 39q0 30-30 46t-69 16q-86 0-156-33l-22-11-23 144q74 34 185 34 130 1 208.5-59t80.5-160q0-106-140-174-49-25-71-42t-22-38q0-22 24.5-38.5t70.5-16.5q70-1 124 24l15 8zM2042 576h-128q-65 0-87 54l-246 588h174l35-96h212q5 22 20 96h154zM2304 256v1280q0 52-38 90t-90 38h-2048q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h2048q52 0 90 38t38 90z" fill="inherit" id="1780901954"></path>
+</svg>
+</div>
+<div class="u_1362554833 graphicWidget" data-element-type="graphic" data-widget-type="graphic" id="1362554833"> <svg alt="MasterCard" class="svg u_1101220668" data-icon-name="fa-cc-mastercard" id="1101220668" viewbox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"> <path d="M671 933h-13q-47 0-47 32 0 22 20 22 17 0 28-15t12-39zM1066 897h62v-3q1-4 0.5-6.5t-1-7-2-8-4.5-6.5-7.5-5-11.5-2q-28 0-36 38zM1606 933h-12q-48 0-48 32 0 22 20 22 17 0 28-15t12-39zM1925 907q0-41-30-41-19 0-31 20t-12 51q0 42 28 42 20 0 32.5-20t12.5-52zM480 766h87l-44 262h-56l32-201-71 201h-39l-4-200-34 200h-53l44-262h81l2 163zM733 873q0 6-4 42-16 101-17 113h-47l1-22q-20 26-58 26-23 0-37.5-16t-14.5-42q0-39 26-60.5t73-21.5q14 0 23 1 0-3 0.5-5.5t1-4.5 0.5-3q0-20-36-20-29 0-59 10 0-4 7-48 38-11 67-11 74 0 74 62zM889 815l-8 49q-22-3-41-3-27 0-27 17 0 8 4.5 12t21.5 11q40 19 40 60 0 72-87 71-34 0-58-6 0-2 7-49 29 8 51 8 32 0 32-19 0-7-4.5-11.5t-21.5-12.5q-43-20-43-59 0-72 84-72 30 0 50 4zM977 815h28l-7 52h-29q-2 17-6.5 40.5t-7 38.5-2.5 18q0 16 19 16 8 0 16-2l-8 47q-21 7-40 7-43 0-45-47 0-12 8-56 3-20 25-146h55zM1180 888q0 23-7 52h-111q-3 22 10 33t38 11q30 0 58-14l-9 54q-30 8-57 8-95 0-95-95 0-55 27.5-90.5t69.5-35.5q35 0 55.5 21t20.5 56zM1319 814q-13 23-22 62-22-2-31 24t-25 128h-56l3-14q22-130 29-199h51l-3 33q14-21 25.5-29.5t28.5-4.5zM1506 773l-9 57q-28-14-50-14-31 0-51 27.5t-20 70.5q0 30 13.5 47t38.5 17q21 0 48-13l-10 59q-28 8-50 8-45 0-71.5-30.5t-26.5-82.5q0-70 35.5-114.5t91.5-44.5q26 0 61 13zM1668 873q0 18-4 42-13 79-17 113h-46l1-22q-20 26-59 26-23 0-37-16t-14-42q0-39 25.5-60.5t72.5-21.5q15 0 23 1 2-7 2-13 0-20-36-20-29 0-59 10 0-4 8-48 38-11 67-11 73 0 73 62zM1809 814q-14 24-21 62-23-2-31.5 23t-25.5 129h-56l3-14q19-104 29-199h52q0 11-4 33 15-21 26.5-29.5t27.5-4.5zM1950 766h56l-43 262h-53l3-19q-23 23-52 23-31 0-49.5-24t-18.5-64q0-53 27.5-92t64.5-39q31 0 53 29zM2061 896q0-148-72.5-273t-198-198-273.5-73q-181 0-328 110 127 116 171 284h-50q-44-150-158-253-114 103-158 253h-50q44-168 171-284-147-110-328-110-148 0-273.5 73t-198 198-72.5 273 72.5 273 198 198 273.5 73q181 0 328-110-120-111-165-264h50q46 138 152 233 106-95 152-233h50q-45 153-165 264 147 110 328 110 148 0 273.5-73t198-198 72.5-273zM2304 256v1280q0 52-38 90t-90 38h-2048q-52 0-90-38t-38-90v-1280q0-52 38-90t90-38h2048q52 0 90 38t38 90z" fill="inherit" id="1085755837"></path>
+</svg>
+</div>
+<div class="u_1780465830 graphicWidget" data-element-type="graphic" data-widget-type="graphic" id="1780465830"> <svg alt="Discover" class="svg u_1890376295" data-icon-name="fa-cc-discover" id="1890376295" viewbox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"> <path d="M313 777q0 51-36 84-29 26-89 26h-17v-220h17q61 0 89 27 36 31 36 83zM2089 712q0 52-64 52h-19v-101h20q63 0 63 49zM380 777q0-74-50-120.5t-129-46.5h-95v333h95q74 0 119-38 60-51 60-128zM410 943h65v-333h-65v333zM730 842q0-40-20.5-62t-75.5-42q-29-10-39.5-19t-10.5-23q0-16 13.5-26.5t34.5-10.5q29 0 53 27l34-44q-41-37-98-37-44 0-74 27.5t-30 67.5q0 35 18 55.5t64 36.5q37 13 45 19 19 12 19 34 0 20-14 33.5t-36 13.5q-48 0-71-44l-42 40q44 64 115 64 51 0 83-30.5t32-79.5zM1008 932v-77q-37 37-78 37-49 0-80.5-32.5t-31.5-82.5q0-48 31.5-81.5t77.5-33.5q43 0 81 38v-77q-40-20-80-20-74 0-125.5 50.5t-51.5 123.5 51 123.5 125 50.5q42 0 81-19zM2240 1536v-527q-65 40-144.5 84t-237.5 117-329.5 137.5-417.5 134.5-504 118h1569q26 0 45-19t19-45zM1389 779q0-75-53-128t-128-53-128 53-53 128 53 128 128 53 128-53 53-128zM1541 952l144-342h-71l-90 224-89-224h-71l142 342h35zM1714 943h184v-56h-119v-90h115v-56h-115v-74h119v-57h-184v333zM2105 943h80l-105-140q76-16 76-94 0-47-31-73t-87-26h-97v333h65v-133h9zM2304 262v1268q0 56-38.5 95t-93.5 39h-2040q-55 0-93.5-39t-38.5-95v-1268q0-56 38.5-95t93.5-39h2040q55 0 93.5 39t38.5 95z" fill="inherit" id="1802126443"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="poweredBy poweredByHibu" data-element-type="powered_by" dmle_extension="powered_by" icon="true" id="1236746004" surround="false"> <div class="poweredLine1"> <a aria-describedby="audioeye_new_window_message" href="http://budurl.com/hibuprivacy" target="_blank">Privacy Policy</a><span id="spConsentWrapper"><cmp-toolbar></cmp-toolbar></span> 
+| <a aria-describedby="audioeye_new_window_message" href="http://budurl.com/hibucookie" target="_blank">Do Not Share My Information</a> 
+| <a aria-describedby="audioeye_new_window_message" href="http://budurl.com/hibuconditionsofuse" target="_blank">Conditions of Use</a> 
+| <a aria-describedby="audioeye_new_window_message" href="http://budurl.com/hibunotice" target="_blank">Notice and Take Down Policy</a> 
+| <a aria-describedby="audioeye_new_window_message" href="http://b.link/accessibility" target="_blank">Website Accessibility Policy</a>
+</div>
+<div class="poweredLine2">© <span id="hibuYear">2025</span> 
+The content on this website is owned by us and our licensors. Do not copy any content (including images) without our consent.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- Google Fonts Include -->
+<!-- loadCSS function fonts.jsp-->
+<link as="style" fetchpriority="low" href="https://cdn.hibuwebsites.com/fonts/css2?family=Julius+Sans+One:ital,wght@0,400&amp;family=Vidaloka:ital,wght@0,400&amp;family=UnifrakturMaguntia:ital,wght@0,400&amp;family=Gudea:ital,wght@0,400;0,700;1,400&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;family=Petit+Formal+Script:ital,wght@0,400&amp;family=Parisienne:ital,wght@0,400&amp;family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;family=Lora:ital,wght@0,400..700;1,400..700&amp;family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&amp;subset=latin-ext&amp;display=swap" onload="loadCSS(this)" rel="stylesheet" type="text/css"/>
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link as="style" fetchpriority="low" href="css/d-css-runtime-desktop-one-package-structured-global.min.css" onload="loadCSS(this)" rel="stylesheet" type="text/css"/>
+<!-- End of RT CSS Include -->
+<link as="style" fetchpriority="low" href="css/a69ed282c9e4a0c112083feffbb57cb8.css" id="widgetCSS" onload="loadCSS(this)" rel="stylesheet" type="text/css"/>
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="about"] #dm [data-show-on-page-only="about"] {
+    display: block !important;
+  }
+</style>
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+<!-- Site CSS -->
+<link as="style" fetchpriority="low" href="css/cc7e03c69cfb4af5a037612fc246ca8a_1.min.css" id="siteGlobalCss" onload="loadCSS(this)" rel="stylesheet" type="text/css"/>
+<!-- additional css file per platform -->
+<link href="css/hibu-runtime.css" rel="stylesheet" type="text/css"/>
+<script charset="" id="" type="text/javascript">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","1808305689239755");fbq("track","PageView");</script>
+<noscript><img height="1" src="https://www.facebook.com/tr?id=1808305689239755&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+<script charset="" id="" type="text/javascript">(function(){var c=document;var b=window.location;var a=c.createElement("IMG");b=b.protocol+"//tvspix.com/t.png?\x26t\x3d"+(new Date).getTime()+"\x26l\x3dtvscientific-pix-o-536f2e5f-e075-48bb-b2dd-c7fe46d7e670\x26u3\x3d"+encodeURIComponent(b.href);a.setAttribute("src",b);a.setAttribute("height","0");a.setAttribute("width","0");a.setAttribute("alt","");a.style.setProperty("display","none");a.style.setProperty("position","absolute");a.style.setProperty("visibility","hidden");c.body.appendChild(a)})();</script><img alt="" height="0" src="img/t.png" style="display: none; position: absolute; visibility: hidden;" width="0"/><iframe allow="join-ad-interest-group" data-load-time="1749790083955" data-tagging-id="AW-977626100" height="0" src="https://td.doubleclick.net/td/rul/977626100?random=1749790083949&amp;cv=11&amp;fst=1749790083949&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" width="0"></iframe><iframe height="0" style="display: none; visibility: hidden;" width="0"></iframe>
+<style id="customWidgetStyle" type="text/css">
+</style>
+<style id="innerPagesStyle" type="text/css">
+</style>
+<style id="additionalGlobalCss" type="text/css">
+</style>
+<style id="pagestyle" type="text/css">
+</style>
+<style id="pagestyleDevice" type="text/css">
+</style>
+<!-- Flex Sections CSS -->
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+<script id="d_track_campaign" type="text/javascript">
+(function() {
+    if (!window.location.search) {
+        return;
+    }
+	const cleanParams = window.location.search.substring(1); // Strip ?
+	const queryParams = cleanParams.split('&');
+
+	const expires = 'expires=' + new Date().getTime() + 24 * 60 * 60 * 1000;
+	const domain = 'domain=' + window.location.hostname;
+	const path = "path=/";
+
+	queryParams.forEach((param) => {
+		const [key, value = ''] = param.split('=');
+		if (key.startsWith('utm_')) {
+			const cookieName = "_dm_rt_" + key.substring(4);
+			const cookie = cookieName + "=" + value;
+			const joined = [cookie, expires, domain, path].join(";");
+			document.cookie = joined;
+		}
+	});
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+<script id="d_track_sp" type="text/javascript">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'cc7e03c69cfb4af5a037612fc246ca8a'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+<div id="P6iryBW0Wu" style="display:none;"></div>
+<!-- photoswipe markup -->
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+<!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+<div class="pswp__bg"></div>
+<!-- Slides wrapper with overflow:hidden. -->
+<div class="pswp__scroll-wrap">
+<!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+<div class="pswp__container">
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+<div class="pswp__item"></div>
+</div>
+<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+<div class="pswp__ui pswp__ui--hidden">
+<div class="pswp__top-bar">
+<!--  Controls are self-explanatory. Order can be changed. -->
+<div class="pswp__counter"></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title="Share"></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+<!-- element will get class pswp__preloader--active when preloader is running -->
+<div class="pswp__preloader">
+<div class="pswp__preloader__icn">
+<div class="pswp__preloader__cut">
+<div class="pswp__preloader__donut"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class="pswp__share-tooltip"></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class="pswp__caption">
+<div class="pswp__caption__center"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="fb_reset" data-locale="en" id="fb-root"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+<!-- Alias: cc7e03c69cfb4af5a037612fc246ca8a -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div class="dmPopup" id="dmPopup">
+<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+<div class="dmPopupTitle"> <span></span> Share by:</div>
+<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+<!--  Begin Body End Markup -->
+<!-- Begin Body End Markup -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-M3XZ663" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div data-inject="placeholder_retargeting_pixel" id="placeholder_retargeting_pixel" style="display: none;">
+<img alt="" border="0" height="1" src="//servedby.ipromote.com/ad/?src=pixel_cid&amp;nid=2185&amp;cid=WPK44CYSIIC&amp;cat=2712" width="1"/>
+</div>
+<div data-inject="placeholder_dpni" id="placeholder_dpni" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_dpni}}
+</div>
+<div data-inject="placeholder_analytics" id="placeholder_analytics" style="display: none;">
+<script>
+//<![CDATA[
+
+
+
+ //yellAnalyticsConfig need to set before s_code.js
+ var yellAnalyticsConfig = {
+ "global" : {
+  "trackDownloadLinks": true,
+  "downloadFileTypes": "exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx",
+  "currency": "USD",
+  "trackExternalLinks": true,
+  "internalDomains": "javascript:",
+  "charset": "UTF-8"
+ },
+ "omniture" : {
+  "enabled": true,
+  "server": "yellgroup.122.2o7.net",
+  "serverSecure": "yellgroup.122.2o7.net",
+  "namespace": "yellgroup",
+  "account": "yelldudalive",
+  "campaign": "CID|cam"
+ }}
+
+ var hibuWebsiteConfig={
+  "prodSKU":"WBS-DT4OH-01-US",
+  "assetID":"357637658",
+  "customerID":"7063710789"
+ }
+ 
+ 
+ 
+//]]>
+ </script>
+<script src="js/AppMeasurement.js" type="text/javascript">
+//<![CDATA[
+
+
+
+ 
+ 
+ 
+//]]>
+ </script>
+<script src="js/hibu-analytics.min.js" type="text/javascript">
+//<![CDATA[
+
+
+
+ 
+ 
+ 
+//]]>
+ </script>
+<script src="js/omn_setting.js" type="text/javascript">
+//<![CDATA[
+
+
+
+ 
+ 
+ 
+//]]>
+ </script>
+</div>
+<div data-inject="placeholder_footer_reserve1" id="placeholder_footer_reserve1" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve1}}
+</div>
+<div data-inject="placeholder_footer_reserve2" id="placeholder_footer_reserve2" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve2}}
+</div>
+<div data-inject="placeholder_footer_reserve3" id="placeholder_footer_reserve3" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve3}}
+</div>
+<div data-inject="placeholder_footer_reserve4" id="placeholder_footer_reserve4" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve4}}
+</div>
+<div data-inject="placeholder_footer_reserve5" id="placeholder_footer_reserve5" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve5}}
+</div>
+<div data-inject="placeholder_footer_reserve6" id="placeholder_footer_reserve6" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve6}}
+</div>
+<div data-inject="placeholder_footer_reserve7" id="placeholder_footer_reserve7" style="display: none;">
+ 
+ 
+ 
+ {{placeholder_footer_reserve7}}
+</div>
+<!-- End Body End Markup --><!--  End Body End Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) { 
+var js, fjs = d.getElementsByTagName(s)[0]; 
+if (d.getElementById(id)) return; 
+js = d.createElement(s); js.id = id; 
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=1822295708016537"; 
+fjs.parentNode.insertBefore(js, fjs); 
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+//make sure video's on iOS load first screen of the video.
+dmAPI.runOnReady('russTest',function() {
+    var _hibu_vid = document.getElementsByTagName('video');
+    for (var i = 0; i < _hibu_vid.length; i++) {
+        _hibu_vid[i].load();
+    }
+})
+</script>
+<script>
+//simple addition by Russ to add consent banner link into footer
+const _spSpanForFooter = document.createElement('span');
+_spSpanForFooter.id = "spConsentWrapper";
+const poweredByFirstAnchor = document.querySelector('.poweredBy a:first-child');
+poweredByFirstAnchor.insertAdjacentElement('afterend',_spSpanForFooter);
+window.localStorage.setItem("__springtime__repop__target", "#spConsentWrapper");
+</script>
+<style>#spConsentWrapper:before { content: " | " }</style>
+<script>if(window.location.search.indexOf('preview')>0){window.localStorage.setItem('ae_user_consent_decision_has_been_made',true);document.getElementById('spConsentWrapper').remove();}</script><script>let comments = document.querySelectorAll('.dmFacebookComments');if (comments) {for (i=0;i<comments.length;i++) {
+    comments[i].style.display = "none";
+}}</script><!--  End Product Custom HTML Markup -->
+<script charset="" id="" type="text/javascript">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","230239877657347");fbq("track","PageView");</script>
+<noscript><img height="1" src="https://www.facebook.com/tr?id=230239877657347&amp;ev=PageView&amp;noscript=1" style="display:none" width="1"/></noscript>
+<iframe allow="join-ad-interest-group" data-load-time="1749790083993" data-tagging-id="AW-977626100" height="0" src="https://td.doubleclick.net/td/rul/977626100?random=1749790083991&amp;cv=11&amp;fst=1749790083991&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660z879714712za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;data=event%3Dgtag.config" style="display: none; visibility: hidden;" width="0"></iframe><iframe allow="join-ad-interest-group" data-load-time="1749790083995" data-tagging-id="AW-977626100" height="0" src="https://td.doubleclick.net/td/rul/977626100?random=1749790083994&amp;cv=11&amp;fst=1749790083994&amp;fmt=3&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be56b1v871243660z879714712za200&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104661466~104661468~104718208~104736445~104736447&amp;u_w=1680&amp;u_h=1050&amp;url=https%3A%2F%2Fwww.sherwoodforestfaire.com%2Fabout&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Sherwood%20Forest%20Faire%20%7C%20Austin%2C%20Tx%20%7C%20Renaissance%20%7C%20Medieval%20%7C%20Faire%20%7C%20Festival&amp;npa=0&amp;pscdl=noapi&amp;auid=539315591.1749789444&amp;uaa=x64&amp;uab=64&amp;uafvl=Not.A%252FBrand%3B99.0.0.0%7CChromium%3B136.0.7103.25&amp;uamb=0&amp;uam=&amp;uap=macOS&amp;uapv=13_5&amp;uaw=0&amp;fledge=1&amp;_tu=Cg" style="display: none; visibility: hidden;" width="0"></iframe><script charset="" id="" type="text/javascript">/*
+ modernizr 3.6.0 (Custom Build) | MIT *
+]
+ https://modernizr.com/download/?-cookies-localstorage-setclasses !*/
+var customDimensionId=0,customDimensionValue="";
+!function(c,a,d){function k(){var e,b,f,l,p;for(p in m)if(m.hasOwnProperty(p)){if(e=[],b=m[p],b.name&&(e.push(b.name.toLowerCase()),b.options&&b.options.aliases&&b.options.aliases.length))for(f=0;f<b.options.aliases.length;f++)e.push(b.options.aliases[f].toLowerCase());f="function"===typeof b.fn?b.fn():b.fn;for(l=0;l<e.length;l++){var h=e[l];h=h.split(".");1===h.length?g[h[0]]=f:(!g[h[0]]||g[h[0]]instanceof Boolean||(g[h[0]]=new Boolean(g[h[0]])),g[h[0]][h[1]]=f);q.push((f?"":"no-")+h.join("-"))}}}
+function u(e){var b=n.className,f=g._config.classPrefix||"";if(r&&(b=b.baseVal),g._config.enableJSClass){var l=new RegExp("(^|\\s)"+f+"no-js(\\s|$)");b=b.replace(l,"$1"+f+"js$2")}g._config.enableClasses&&(b+=" "+f+e.join(" "+f),r?n.className.baseVal=b:n.className=b)}var q=[],n=a.documentElement,r="svg"===n.nodeName.toLowerCase(),m=[];d={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,b){var f=this;setTimeout(function(){b(f[e])},0)},addTest:function(e,
+b,f){m.push({name:e,fn:b,options:f})},addAsyncTest:function(e){m.push({name:null,fn:e})}};var g=function(){};g.prototype=d;g=new g;g.addTest("cookies",function(){try{a.cookie="cookietest\x3d1";var e=-1!=a.cookie.indexOf("cookietest\x3d");return a.cookie="cookietest\x3d1; expires\x3dThu, 01-Jan-1970 00:00:01 GMT",e}catch(b){return!1}});g.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(b){return!1}});k();u(q);delete d.addTest;
+delete d.addAsyncTest;for(d=0;d<g._q.length;d++)g._q[d]();c.Modernizr=g}(window,document);console.log("ProTagManager Started");function hashCode(c){var a=0;if(c){if(0==c.length)return a;for(i=0;i<c.length;i++)charac=c.charCodeAt(i),a=(a<<5)-a+charac,a&=a;return a}console.log("-\x3e No str to hash")}
+function varlookup(c,a){a||(a=window.location.href);c=c.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");c=(new RegExp("[\\?\x26]"+c+"\x3d([^\x26#]*)")).exec(a);return null==c?null:decodeURIComponent(c[1].replace(/\\+/g," "))}function readCookie(c){var a=document.cookie.split(";");c+="\x3d";for(var d=0;d<a.length;d++){for(var k=a[d];" "==k.charAt(0);)k=k.substring(1,k.length);if(0==k.indexOf(c))return k.substring(c.length,k.length)}return null}
+function writeCookie(c,a,d){d?((t=new Date).setTime((new Date).getTime()+864E5*d),d="; expires\x3d"+t.toGMTString()):d="";document.cookie=c+"\x3d"+a+d+"; path\x3d/"}var _paq=window._paq=window._paq||[];if(null!=varlookup("usr")){var email=varlookup("usr");email&&console.log("Email supplied via URL as: "+email);writeCookie("email",email,"365")}
+if(Modernizr.localstorage){console.log("Found LocalStorage");var localEmail=localStorage.getItem("email");localEmail?email?email!==localEmail?email.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=2,customDimensionValue=localEmail]),console.log("Email from URL: "+email+" is not the same as the stored: "+localEmail+", storing secondary email"),_paq.push(["setCustomVariable",4,"2nd Email",email,"visit"])):localEmail.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=
+2,customDimensionValue=localEmail]),console.log("Email from URL: "+email+" is the same as the stored: "+localEmail)):localEmail.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=2,customDimensionValue=localEmail]),console.log("Local Email "+localEmail+" retrieved from storage")):(console.log("No Local Email Stored"),email&&!email.includes("undefined")&&(_paq.push(["setCustomDimension",customDimensionId=2,customDimensionValue=email]),localStorage.setItem("email",email),console.log("Local Email set to "+
+email+" from URL")));var localName=localStorage.getItem("fullname");localName?localName.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=3,customDimensionValue=localName]),console.log("Local Name "+localName+" retrieved from storage")):console.log("No Local Name Stored");var localPhone=localStorage.getItem("phone");localPhone?localPhone.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=4,customDimensionValue=localPhone]),console.log("Local Phone "+
+localPhone+" retrieved from storage")):console.log("No Local Phone Stored")}else email||null==readCookie("email")||(email=readCookie("email"),email.includes("undefined")||(_paq.push(["setCustomDimension",customDimensionId=2,customDimensionValue=email]),console.log("Email read from cookie as: "+email)));_paq.push(["setCookieDomain","*.sherwoodforestfaire.com"]);_paq.push(["setDomains",["*.www.sherwoodforestfaire.com","*.sherwoodforestfaire.com"]]);_paq.push(["trackPageView"]);_paq.push(["enableLinkTracking"]);
+_paq.push(["enableJSErrorTracking"]);(function(){var c="//protagmanager.com/";_paq.push(["setTrackerUrl",c+"matomo.php"]);_paq.push(["setSiteId","49"]);var a=document,d=a.createElement("script");a=a.getElementsByTagName("script")[0];d.async=!0;d.src=c+"matomo.js";a.parentNode.insertBefore(d,a)})();console.log("ProTagManager Activated");</script><iframe aria-hidden="true" id="_hjSafeContext_24169011" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;" tabindex="-1" title="_hjSafeContext"></iframe><script src="js/aem.js" type="text/javascript"></script><script async="" src="js/bootstrap.js" type="text/javascript"></script><script async="" crossorigin="" src="js/index.js" type="module"></script><script async="" crossorigin="anonymous" src="js/loader.js"></script><script src="js/startup.bundle.js" type="text/javascript"></script><iframe id="ae-userStateStore" src="https://wsv3cdn.audioeye.com/static-scripts/v2/8e49f9e4e/cookieStorage.html" style="display: none; height: 0px; width: 0px;" title="AudioEye Persistent Cookies Iframe"></iframe><div data-nosnippet="" id="ae_app">
+<!--
+        Layout, Style or Voice Helpers
+    -->
+<div class="ae-module" id="ae_helpers" style="display: none;">
+</div>
+<!--
+        Compliance
+    -->
+<div class="ae-module" id="ae_compliance" style="display: none;">
+<!-- For autoSmartRem addNewWindowWarnings div is referenced in an aria-describedby -->
+<div id="audioeye_new_window_message" style="display:none">Opens in new window</div>
+<div id="audioeye_pdf_message" style="display:none">PDF Download</div>
+<div id="audioeye_word_message" style="display:none">Word Download</div>
+<div id="audioeye_excel_message" style="display:none">Excel Download</div>
+<div id="audioeye_powerpoint_message" style="display:none">PowerPoint Download</div>
+<div id="audioeye_document_message" style="display:none">Document Download</div>
+</div>
+<!--
+        Versioning Control Panel if versioning = true !
+    -->
+<!--
+        Launcher
+    -->
+<aside aria-label="Accessibility Help Desk" class="ae-module aetipsytip ae-active ae-cta-position-preset-left-lower" id="ae_launcher" style="display: none">
+<button aria-label="Explore your accessibility options">
+<div class="ae-left" style="display: none">
+<span>Explore your accessibility options</span>
+</div>
+<div class="ae-right">
+<span class="icomoon-wrapper">
+<div>
+<span class="icomoon-cta ae-icon-launcher-universalaccess ae-initial-cta">
+<span class="icomoon-cta path1 a11y-icon-figure-and-border"></span>
+<span class="icomoon-cta path2 a11y-icon-background" style="color: rgb(18, 117, 179);"></span>
+</span>
+</div>
+</span>
+</div>
+</button>
+</aside>
+<!-- Toolbar -->
+<span aria-hidden="true" id="ae_placeholder_toolbar" style="display: none;"></span>
+<!--
+        Site Menu
+    -->
+<span aria-hidden="true" id="ae_placeholder_site-menu" style="display: none;"></span>
+<!--
+        Generic Aria Live message container
+    -->
+<div aria-live="assertive" aria-relevant="additions" class="ae-blurb-noaudio" id="ae_enabled_messages"></div>
+<!-- Symbol definitions -->
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-close-carousel" viewbox="0 0 32 32">
+<title>close carousel</title>
+<path d="M28.992 0l-12.992 12.992-12.992-12.992-3.008 3.008 12.992 12.992-12.992 12.992 3.008 3.008 12.992-12.992 12.992 12.992 3.008-3.008-12.992-12.992 12.992-12.992-3.008-3.008z" fill="#ffffff" style="fill: var(--color1, #ffffff)"></path>
+</symbol>
+</defs>
+</svg>
+</div><!-- end #ae_app --></body></html>
